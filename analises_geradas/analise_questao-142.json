@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "142",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-142.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H20",
+            "descricao": "Interpretar gráfico cartesiano que represente relações entre grandezas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H24",
+                "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Interpretação e análise do comportamento de funções em gráficos cartesianos",
+        "conteudos_relacionados": [
+            "Leitura de gráficos cartesianos",
+            "Crescimento e decrescimento de funções",
+            "Função constante"
+        ],
+        "assunto": "Análise gráfica de grandezas",
+        "objeto_de_analise": "Comportamento da curva da frequência respiratória em função do tempo",
+        "fenomeno_conceito": "Variação e estabilização de grandezas ao longo do tempo"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "mantém-se constante.",
+            "correta": false,
+            "justificativa": "Incorreta, pois a partir de $t_1$ a curva decresce continuamente até $t_2$, não permanecendo constante ao longo de todo o intervalo posterior a $t_1$."
+        },
+        {
+            "letra": "B",
+            "texto": "é diretamente proporcional ao tempo.",
+            "correta": false,
+            "justificativa": "Incorreta, pois a proporcionalidade direta exigiria uma reta crescente passando pela origem, ao passo que a frequência respiratória diminui após $t_1$."
+        },
+        {
+            "letra": "C",
+            "texto": "é inversamente proporcional ao tempo.",
+            "correta": false,
+            "justificativa": "Incorreta, pois a relação de proporcionalidade inversa implicaria que o produto entre as variáveis fosse constante ($f(t) \\cdot t = k$), o que não condiz com a estabilização em um patamar constante $f_2$ a partir de $t_2$."
+        },
+        {
+            "letra": "D",
+            "texto": "diminui até o instante $t_2$, a partir do qual se torna constante.",
+            "correta": true,
+            "justificativa": "Correta. Pela leitura direta do gráfico cartesiano, a curva decresce no intervalo entre $t_1$ e $t_2$ (de $f_1$ até $f_2$) e, a partir de $t_2$, mantém-se em uma linha horizontal constante no valor de $f_2$."
+        },
+        {
+            "letra": "E",
+            "texto": "diminui de forma proporcional ao tempo, tanto entre $t_1$ e $t_2$ quanto após $t_2$.",
+            "correta": false,
+            "justificativa": "Incorreta, pois após o instante $t_2$ a frequência respiratória deixa de diminuir e estabiliza-se, tornando-se constante."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2025-03",
+        "datetime": "2026-10-31T21:23:50.755211",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando pede a interpretação do comportamento da variável frequência respiratória em função do tempo a partir de t1.",
+            "A habilidade H20 avalia a interpretação de gráfico cartesiano que relacione grandezas.",
+            "A leitura direta do gráfico revela decrescimento de t1 até t2 e patamar constante a partir de t2, correspondendo à alternativa D."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-142.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

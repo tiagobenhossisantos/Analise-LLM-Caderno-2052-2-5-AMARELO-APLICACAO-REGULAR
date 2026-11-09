@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 179,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-179.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H2",
+            "descricao": "Identificar padrões numéricos ou princípios de contagem."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Análise Combinatória",
+        "conteudos_relacionados": [
+            "Princípio Fundamental da Contagem",
+            "Combinação Simples"
+        ],
+        "assunto": "Contagem e agrupamentos combinatórios",
+        "objeto_de_analise": "Distribuição de presentes com restrições condicionais",
+        "fenomeno_conceito": "Combinações simples com agrupamentos simultâneos e particionamento de conjuntos com restrição"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "36",
+            "correta": false,
+            "justificativa": "Resultado incorreto decorrente de erros na modelagem das etapas de escolha ou aplicação inadequada das fórmulas combinatórias."
+        },
+        {
+            "letra": "B",
+            "texto": "53",
+            "correta": false,
+            "justificativa": "Resultado obtido por operações combinatórias e aritméticas equivocadas, desconsiderando o produto das etapas de seleção."
+        },
+        {
+            "letra": "C",
+            "texto": "300",
+            "correta": true,
+            "justificativa": "Para o filho mais velho, escolhe-se 1 entre os 2 presentes exclusivos (bicicleta ou celular), totalizando 2 possibilidades, e completam-se seus 3 presentes escolhendo 2 entre os 6 presentes restantes: C(6, 2) = 15. Sobram 5 presentes para serem distribuídos entre o filho do meio (2 presentes) e o mais novo (3 presentes), o que pode ser feito de C(5, 2) * C(3, 3) = 10 * 1 = 10 maneiras. Pelo princípio fundamental da contagem, o total é 2 * 15 * 10 = 300 maneiras."
+        },
+        {
+            "letra": "D",
+            "texto": "360",
+            "correta": false,
+            "justificativa": "Valor obtido ao considerar indevidamente permutações com ordenação onde a ordem dos presentes não importa, ou falha nos fatores multiplicativos."
+        },
+        {
+            "letra": "E",
+            "texto": "560",
+            "correta": false,
+            "justificativa": "Corresponde ao total de maneiras de distribuir os presentes ignorando a restrição de que o mais velho deve receber a bicicleta ou o celular, mas não ambos: C(8, 3) * C(5, 2) = 56 * 10 = 560."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-01T18:47:00.825886",
+        "confianca": "alta",
+        "evidencias": [
+            "O problema envolve contagem de maneiras distintas de distribuir 8 presentes para 3 filhos sob restrições específicas.",
+            "A resolução direta utiliza o conceito de Combinação Simples e Princípio Multiplicativo da Contagem, correspondendo à habilidade H2 da Matriz do ENEM.",
+            "A alternativa E reflete o distrator clássico em que a restrição de exclusão mútua entre bicicleta e celular é desconsiderada (C(8,3) * C(5,2) = 560)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-179.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

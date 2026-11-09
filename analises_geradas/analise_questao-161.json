@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 161,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-161.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Inequações do 1º Grau e Modelagem Algébrica",
+        "conteudos_relacionados": [
+            "Porcentagem",
+            "Sistemas lineares",
+            "Operações com números reais"
+        ],
+        "assunto": "Equações e Inequações de 1º Grau",
+        "objeto_de_analise": "Otimização de custos de produção de plástico virgem e reciclado",
+        "fenomeno_conceito": "Relação de custo e redução percentual modelada por inequação linear"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "135.",
+            "correta": false,
+            "justificativa": "Se fossem recicladas 135 toneladas, seriam produzidas 55 toneladas a partir do petróleo (190 - 135). O custo seria de 55 * R$ 10.000 + 135 * R$ 500 = R$ 550.000 + R$ 67.500 = R$ 617.500, o que excede o teto de R$ 570.000 (redução menor que 50%)."
+        },
+        {
+            "letra": "B",
+            "texto": "140.",
+            "correta": true,
+            "justificativa": "O custo de reciclagem é R$ 500/t, correspondendo a 5% do custo do petróleo (R$ 10.000/t). O total inicial foi 110 * 10.000 + 80 * 500 = R$ 1.140.000. Reduzir 50% significa custo máximo de R$ 570.000 para as mesmas 190 toneladas. Sendo r as toneladas recicladas: (190 - r)*10.000 + r*500 <= 570.000 => 1.900.000 - 9.500r <= 570.000 => 9.500r >= 1.330.000 => r >= 140."
+        },
+        {
+            "letra": "C",
+            "texto": "155.",
+            "correta": false,
+            "justificativa": "Apesar de 155 toneladas atenderem à redução de pelo menos 50% no custo, a questão solicita a quantidade mínima necessária, que é 140 toneladas."
+        },
+        {
+            "letra": "D",
+            "texto": "160.",
+            "correta": false,
+            "justificativa": "160 toneladas cumpre a meta, mas não corresponde à quantidade mínima solicitada pelo enunciado."
+        },
+        {
+            "letra": "E",
+            "texto": "175.",
+            "correta": false,
+            "justificativa": "175 toneladas é um valor acima do mínimo requerido de 140 toneladas para alcançar a redução de 50%."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-01T17:11:07.442637",
+        "confianca": "alta",
+        "evidencias": [
+            "Custo derivado de petróleo: R$ 500 / 0,05 = R$ 10.000 por tonelada.",
+            "Custo inicial: 110 * 10.000 + 80 * 500 = R$ 1.140.000.",
+            "Custo meta (máximo 50% do inicial): R$ 570.000.",
+            "Equação/inequação: 10.000(190 - x) + 500x <= 570.000 resulta em x >= 140.",
+            "Gabarito oficial é B (140)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-161.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

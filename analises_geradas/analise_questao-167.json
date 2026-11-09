@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "167",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-167.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H12",
+                "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estatística e representação gráfica",
+        "conteudos_relacionados": [
+            "Operações fundamentais",
+            "Conversão de unidades de medida de massa",
+            "Interpretação de tabelas e gráficos"
+        ],
+        "assunto": "Conversão de representações (tabela para gráfico) e cálculo de produção",
+        "objeto_de_analise": "Dados de área cultivada e produtividade agrícola por safra",
+        "fenomeno_conceito": "Cálculo da produção total de uma cultura a partir da produtividade e da área, com ajuste de unidade de medida (sacas de 50 kg para toneladas)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Gráfico de linhas com os pontos plotados: (11-12, 400), (12-13, 330), (13-14, 562,5), (14-15, 562,5) e (15-16, 500).",
+            "correta": true,
+            "justificativa": "Correta. Para obter a produção em toneladas, multiplica-se a área cultivada (ha) pela produtividade (sacas/ha), obtendo o número total de sacas, multiplica-se por 50 kg e divide-se por 1 000 kg/t (ou simplesmente multiplica-se por 0,05 t/saca): Safra 11-12: 200 * 40 * 0,05 = 400 t; Safra 12-13: 220 * 30 * 0,05 = 330 t; Safra 13-14: 250 * 45 * 0,05 = 562,5 t; Safra 14-15: 250 * 45 * 0,05 = 562,5 t; Safra 15-16: 200 * 50 * 0,05 = 500 t."
+        },
+        {
+            "letra": "B",
+            "texto": "Gráfico de linhas com os pontos plotados: (11-12, 40), (12-13, 30), (13-14, 45), (14-15, 45) e (15-16, 50).",
+            "correta": false,
+            "justificativa": "Incorreta. Este gráfico apenas reproduz os valores da produtividade (sacas/ha), sem multiplicar pela área cultivada nem converter as sacas para toneladas."
+        },
+        {
+            "letra": "C",
+            "texto": "Gráfico de linhas com os pontos plotados: (11-12, 200), (12-13, 220), (13-14, 250), (14-15, 250) e (15-16, 200).",
+            "correta": false,
+            "justificativa": "Incorreta. Este gráfico reproduz diretamente os valores da área cultivada (em hectares), ignorando a produtividade e o cálculo da produção total."
+        },
+        {
+            "letra": "D",
+            "texto": "Gráfico de linhas com os pontos plotados: (11-12, 240), (12-13, 250), (13-14, 295), (14-15, 295) e (15-16, 250).",
+            "correta": false,
+            "justificativa": "Incorreta. Os valores resultam da soma incorreta entre a área cultivada e a produtividade (ex.: 200 + 40 = 240; 220 + 30 = 250, etc.)."
+        },
+        {
+            "letra": "E",
+            "texto": "Gráfico de linhas com os pontos plotados: (11-12, 8), (12-13, 6,6), (13-14, 11,25), (14-15, 11,25) e (15-16, 10).",
+            "correta": false,
+            "justificativa": "Incorreta. Ocorre ao calcular o total de sacas (área * produtividade) e dividir diretamente por 1 000, desconsiderando que cada saca possui 50 kg e não 1 kg."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-11-01T17:25:21.000476",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão fornece uma tabela com dados de área e produtividade e solicita a identificação do gráfico de linhas que expressa a produção total em toneladas.",
+            "A habilidade H25 da Matriz de Matemática corresponde diretamente à resolução de problemas a partir de dados em tabelas/gráficos.",
+            "O cálculo matemático direto para cada safra confirma estritamente os pontos do gráfico da alternativa A."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-167.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

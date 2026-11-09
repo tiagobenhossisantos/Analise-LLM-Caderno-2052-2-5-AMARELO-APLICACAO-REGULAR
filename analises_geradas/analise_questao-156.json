@@ -1,0 +1,118 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 156,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-156.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H8",
+            "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H6",
+                "descricao": "Interpretar a localização e a movimentação de pessoas/objetos no espaço tridimensional e sua representação no espaço bidimensional."
+            },
+            {
+                "id": "H12",
+                "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Trigonometria e Geometria Plana",
+        "conteudos_relacionados": [
+            "Lei dos Cossenos",
+            "Vetores e deslocamento",
+            "Ângulos e direções na bússola (azimutes)",
+            "Relação entre velocidade, espaço e tempo"
+        ],
+        "assunto": "Aplicação da Lei dos Cossenos e vetores em problemas de navegação",
+        "objeto_de_analise": "Trajetória realizada versus planejada por uma embarcação",
+        "fenomeno_conceito": "Deslocamento linear vetorial e resolução de triângulos quaisquer"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "135 e 7 horas e 15 minutos.",
+            "correta": true,
+            "justificativa": "Como os deslocamentos Q -> R e S -> T são idênticos (direção 90° e 2 horas de navegação), o vetor deslocamento de T para R é igual ao vetor de S para Q. No triângulo SPQ, os lados PS e PQ medem 4v cada e o ângulo entre eles é de 130° (110° - (-20°) ou 360° - 340° + 110° = 130°). Pela simetria do triângulo isósceles, a direção de S para Q tem azimute de 135° (45° a sudeste). Pela Lei dos Cossenos, SQ² = (4v)² + (4v)² - 2·(4v)·(4v)·cos(130°). Com cos(130°) = -cos(50°) = -0,64, obtém-se SQ² = 32v²(1 + 0,64) = 52,48v², resultando em SQ ≈ 7,244v. O tempo necessário é t = SQ / v ≈ 7,244 horas, que corresponde a 7 horas e aproximadamente 15 minutos (0,244 × 60 min ≈ 14,6 min)."
+        },
+        {
+            "letra": "B",
+            "texto": "45 e 7 horas e 15 minutos.",
+            "correta": false,
+            "justificativa": "A direção 45° aponta para o nordeste, enquanto a direção correta necessária para ir do ponto T até o ponto R (que está ao sul e a leste de T) aponta para o sudeste, correspondendo à direção 135°."
+        },
+        {
+            "letra": "C",
+            "texto": "135 e 12 horas.",
+            "correta": false,
+            "justificativa": "A direção está correta (135°), mas o tempo de 12 horas superestima o percurso, possivelmente decorrente de uma soma linear incorreta de tempos de viagem em vez da aplicação da Lei dos Cossenos."
+        },
+        {
+            "letra": "D",
+            "texto": "135 e 6 horas.",
+            "correta": false,
+            "justificativa": "A direção está correta (135°), mas o tempo de 6 horas não corresponde ao cálculo correto da hipotenusa/lado oposto no triângulo obtusângulo, que requer o cálculo por Lei dos Cossenos com cos(130°) = -0,64, fornecendo aproximadamente 7,24 horas."
+        },
+        {
+            "letra": "E",
+            "texto": "45 e 6 horas.",
+            "correta": false,
+            "justificativa": "Tanto a direção quanto o tempo estão incorretos: a direção aponta para nordeste (45°) em vez de sudeste (135°), e o tempo de 6 horas ignora o comprimento correto determinado pela Lei dos Cossenos."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-10-31T21:40:06.781572",
+        "confianca": "alta",
+        "evidencias": [
+            "A rota T -> R equivale ao vetor Q - S, formando com o ponto P um triângulo isósceles de lados 4v e ângulo de 130° entre eles.",
+            "O ângulo de navegação equivale à direção de SQ, que corresponde a 135° (sudeste).",
+            "A Lei dos Cossenos com cos(50°) = 0,64 resulta em d ≈ 7,244v, correspondendo a 7 h e 15 min."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-156.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

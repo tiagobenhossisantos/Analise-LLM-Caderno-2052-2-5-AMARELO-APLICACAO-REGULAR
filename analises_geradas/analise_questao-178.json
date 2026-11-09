@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "178",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-178.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Equação do 2º grau e modelagem algébrica",
+        "conteudos_relacionados": [
+            "Frações algébricas",
+            "Sistemas de equações",
+            "Divisibilidade e operações fundamentais"
+        ],
+        "assunto": "Modelagem algébrica de parcelamento financeiro",
+        "objeto_de_analise": "Relação entre o número de parcelas e o valor de cada prestação em duas opções de pagamento de um mesmo montante",
+        "fenomeno_conceito": "Equacionamento algébrico e resolução de equação polinomial do segundo grau"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "18",
+            "correta": true,
+            "justificativa": "Alternativa indicada conforme o gabarito oficial fornecido como referência primária."
+        },
+        {
+            "letra": "B",
+            "texto": "24",
+            "correta": false,
+            "justificativa": "Incorreta segundo o gabarito oficial indicado, embora a modelagem algébrica direta da relação (60.000/n - 60.000/(n+6) = 500) resulte matematicamente na equação n² + 6n - 720 = 0, cuja raiz positiva é n = 24."
+        },
+        {
+            "letra": "C",
+            "texto": "30",
+            "correta": false,
+            "justificativa": "Incorreta. O valor 30 corresponderia ao número de parcelas da opção 2 (n + 6 = 24 + 6 = 30), e não à quantidade n de parcelas da opção 1."
+        },
+        {
+            "letra": "D",
+            "texto": "42",
+            "correta": false,
+            "justificativa": "Incorreta. Não satisfaz a relação de redução de R$ 500,00 no valor unitário ao aumentar 6 parcelas para o total de R$ 60.000,00."
+        },
+        {
+            "letra": "E",
+            "texto": "48",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de possíveis confusões aritméticas durante o cálculo das raízes pela fórmula de Bhaskara (onde o numerador apresenta 48 antes da divisão por 2a)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-01T18:45:30.061771",
+        "confianca": "media",
+        "evidencias": [
+            "A questão exige a modelagem do valor da parcela em função do número de parcelas: p = 60000/n e p - 500 = 60000/(n + 6).",
+            "A resolução conduz a uma equação algébrica do 2º grau (n² + 6n - 720 = 0), associada diretamente à habilidade H21 da Matriz de Referência.",
+            "O gabarito oficial foi registrado estritamente como A, conforme instrução e dado fornecido na entrada, embora o cálculo matemático aponte divergência para B."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-178.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

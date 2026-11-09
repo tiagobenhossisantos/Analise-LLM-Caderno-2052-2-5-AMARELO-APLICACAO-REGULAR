@@ -1,0 +1,107 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 97,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-97.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais."
+        },
+        "habilidade_principal": {
+            "id": "H14",
+            "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Fisiologia Humana",
+        "conteudos_relacionados": [
+            "Sentidos e visão humana",
+            "Reflexo pupilar (midríase e miose)",
+            "Óptica da visão"
+        ],
+        "assunto": "Fisiologia do sistema visual humano",
+        "objeto_de_analise": "Mecanismo da dilatação da pupila em ambientes com baixa luminosidade e a reflexão da luz na retina",
+        "fenomeno_conceito": "Dilatação pupilar (midríase)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "dilatada, chega mais luz à retina.",
+            "correta": true,
+            "justificativa": "Em ambientes escuros ou com pouca luminosidade, a pupila se dilata (midríase) para captar mais luz. Com isso, uma quantidade maior de luz do flash consegue atingir a retina e o fundo do olho, vascularizado, refletindo o vermelho."
+        },
+        {
+            "letra": "B",
+            "texto": "retraída, chega mais luz vermelha à retina.",
+            "correta": false,
+            "justificativa": "Em ambientes com pouca luz a pupila não fica retraída (contraída), mas sim dilatada."
+        },
+        {
+            "letra": "C",
+            "texto": "retraída, chega mais luz vermelha aos bastonetes.",
+            "correta": false,
+            "justificativa": "A pupila se dilata na penumbra, e não se retrai; além disso, a cor vermelha observada na foto decorre da reflexão nos vasos sanguíneos da coroide/retina, e não de uma seletividade da luz incidente para os bastonetes."
+        },
+        {
+            "letra": "D",
+            "texto": "retraída, chegam menos luzes azul e verde aos cones.",
+            "correta": false,
+            "justificativa": "A pupila se encontra dilatada no escuro, não retraída."
+        },
+        {
+            "letra": "E",
+            "texto": "dilatada, chegam menos luzes azul e verde aos bastonetes.",
+            "correta": false,
+            "justificativa": "Embora a pupila esteja de fato dilatada, o flash emite luz de amplo espectro (luz branca) e o efeito avermelhado decorre da reflexão da luz nos vasos sanguíneos da retina, não da diminuição de componentes azul e verde que chegam aos fotorreceptores."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-11-09T14:53:38.676072",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão aborda a resposta fisiológica da pupila (midríase) à baixa luminosidade ambiente.",
+            "O gabarito oficial aponta a alternativa A como correta."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-97.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

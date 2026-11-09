@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "153",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-153.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H1",
+            "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Representação numérica e códigos",
+        "conteudos_relacionados": [
+            "Sistema de numeração decimal",
+            "Codificação de dados"
+        ],
+        "assunto": "Sistemas de numeração e representações numéricas no cotidiano",
+        "objeto_de_analise": "Código sequencial numérico de identificação de visitantes",
+        "fenomeno_conceito": "Uso social dos números na representação de códigos estruturados"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "0109082",
+            "correta": false,
+            "justificativa": "Esta alternativa inverteu completamente a ordem dos blocos numéricos estabelecidos pela regra, colocando o turno no início e o andar no final."
+        },
+        {
+            "letra": "B",
+            "texto": "0281090",
+            "correta": false,
+            "justificativa": "Esta alternativa atribui incorretamente dois dígitos para o andar (02) e apenas um dígito para o setor (8), desrespeitando o número de dígitos definidos para cada campo."
+        },
+        {
+            "letra": "C",
+            "texto": "1010982",
+            "correta": false,
+            "justificativa": "Esta alternativa utiliza a hora da chegada (10) como primeiro campo e inverte a posição do andar e do setor, além de desconsiderar a convenção do turno."
+        },
+        {
+            "letra": "D",
+            "texto": "2081090",
+            "correta": true,
+            "justificativa": "Seguindo a regra: o 1º dígito é o andar (2); os dois seguintes são o setor (08); os três seguintes são o funcionário (109); e o último representa a chegada pela manhã (0). O código resultante é 2081090."
+        },
+        {
+            "letra": "E",
+            "texto": "2810910",
+            "correta": false,
+            "justificativa": "Esta alternativa utilizou apenas um dígito para o setor (8 em vez de 08) e colocou a hora da chegada (10) no final em vez do dígito de identificação do turno (0)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2025-05",
+        "datetime": "2026-10-31T21:35:27.949670",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão propõe a criação de um código com 7 dígitos a partir de informações cotidianas (andar, setor, funcionário e período).",
+            "A habilidade H1 envolve o reconhecimento de representações e significados dos números em contextos sociais (como sistemas de codificação).",
+            "A verificação das posições: 1º dígito = 2, 2º e 3º = 08, 4º ao 6º = 109, 7º = 0, gerando o número 2081090 correspondente à alternativa D."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-153.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

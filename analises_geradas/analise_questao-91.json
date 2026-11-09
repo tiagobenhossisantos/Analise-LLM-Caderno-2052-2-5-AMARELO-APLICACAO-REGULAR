@@ -1,0 +1,110 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "91",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-91.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Apropriar-se de conhecimentos da física para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Utilizar leis físicas e (ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Propagação de calor",
+        "conteudos_relacionados": [
+            "Processos de transferência de calor",
+            "Irradiação térmica",
+            "Convecção",
+            "Ondas eletromagnéticas"
+        ],
+        "assunto": "Termologia / Transferência de calor",
+        "objeto_de_analise": "Aquecimento de mariposas próximo a lâmpadas incandescentes",
+        "fenomeno_conceito": "Irradiação térmica"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "reflexão.",
+            "correta": false,
+            "justificativa": "A reflexão é um fenômeno ondulatório óptico que ocorre quando a onda atinge uma superfície e retorna ao meio de origem, não sendo uma forma de transferência de energia térmica."
+        },
+        {
+            "letra": "B",
+            "texto": "refração.",
+            "correta": false,
+            "justificativa": "A refração é o desvio ou alteração na velocidade de propagação de uma onda ao passar de um meio material para outro, não constituindo um processo de transmissão de calor."
+        },
+        {
+            "letra": "C",
+            "texto": "irradiação.",
+            "correta": true,
+            "justificativa": "A irradiação (ou radiação térmica) é a transferência de calor por meio de ondas eletromagnéticas (principalmente na faixa do infravermelho), sendo o único processo de transmissão de calor que não necessita de meio material (líquido, gás ou sólido) para ocorrer."
+        },
+        {
+            "letra": "D",
+            "texto": "dispersão.",
+            "correta": false,
+            "justificativa": "A dispersão é um fenômeno óptico em que ondas de diferentes frequências se separam ao se refratarem em um meio, não sendo um processo de transferência de calor."
+        },
+        {
+            "letra": "E",
+            "texto": "convecção.",
+            "correta": false,
+            "justificativa": "A convecção térmica é um processo de transferência de calor que ocorre obrigatoriamente pela movimentação de massas de fluidos (líquidos ou gases) devido a diferenças de densidade, dependendo fundamentalmente da presença desses meios."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-09T14:21:25.085899",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando da questão solicita o processo de transferência de calor que independe da presença de fluidos.",
+            "Apenas condução, convecção e irradiação são processos de transferência de calor.",
+            "Dentre eles, apenas a irradiação (radiação térmica) se propaga pelo vácuo via ondas eletromagnéticas, independendo de meio material ou fluidos.",
+            "O gabarito oficial confirma a alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-91.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

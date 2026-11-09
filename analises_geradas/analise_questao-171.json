@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "171",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-171.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H19",
+            "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H21",
+                "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Álgebra",
+        "conteudos_relacionados": [
+            "Expressões algébricas",
+            "Função afim",
+            "Progressão aritmética"
+        ],
+        "assunto": "Modelagem de grandezas discretas por meio de expressões algébricas de primeiro grau",
+        "objeto_de_analise": "Variação do número de moedas de um jogador a cada rodada de um jogo circular",
+        "fenomeno_conceito": "Relação de dependência linear entre o número de rodadas e a quantidade acumulada de moedas"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "103 + 4n",
+            "correta": false,
+            "justificativa": "Incorreta. Considera erroneamente o ganho bruto de 4 moedas por rodada (sem subtrair a 1 moeda entregue) e soma indevidamente 3 moedas ao valor inicial de 100."
+        },
+        {
+            "letra": "B",
+            "texto": "103 + 3n",
+            "correta": false,
+            "justificativa": "Incorreta. Embora acerte a taxa de variação líquida (+3 moedas por rodada), soma erroneamente 3 moedas à quantidade inicial, como se o jogador já iniciasse com uma rodada contabilizada além de n."
+        },
+        {
+            "letra": "C",
+            "texto": "100 + 4n",
+            "correta": false,
+            "justificativa": "Incorreta. Considera apenas o ganho de 4 moedas recebidas do jogador da posição 4, desconsiderando a perda de 1 moeda transferida para a posição 2 a cada rodada."
+        },
+        {
+            "letra": "D",
+            "texto": "100 + 3n",
+            "correta": true,
+            "justificativa": "Correta. O jogador inicia com 100 moedas. A cada rodada, ele perde 1 moeda (transferida para o jogador 2) e ganha 4 moedas (recebidas do jogador 4), resultando em um saldo líquido de +3 moedas por rodada. Logo, após n rodadas, terá 100 + 3n moedas."
+        },
+        {
+            "letra": "E",
+            "texto": "99 + 4n",
+            "correta": false,
+            "justificativa": "Incorreta. Subtrai 1 moeda do valor inicial de 100 (obtendo 99) e considera a adição de 4n, misturando o débito único com a taxa bruta de ganho."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-01T17:33:11.800254",
+        "confianca": "alta",
+        "evidencias": [
+            "O enunciado especifica o estado inicial (100 moedas) e as transações de cada rodada.",
+            "A posição 1 dá 1 moeda e recebe 4 moedas em cada rodada, gerando um saldo líquido de +3 moedas por rodada.",
+            "A expressão algébrica do total após n rodadas é 100 + 3n, correspondendo exatamente à alternativa D."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-171.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

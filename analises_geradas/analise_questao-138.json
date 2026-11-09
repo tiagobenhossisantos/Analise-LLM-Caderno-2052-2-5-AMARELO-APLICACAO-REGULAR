@@ -1,0 +1,109 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 138,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-138.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H3",
+            "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Operações aritméticas fundamentais",
+        "conteudos_relacionados": [
+            "Subtração e adição de grandezas",
+            "Resolução de problemas de primeiro grau"
+        ],
+        "assunto": "Aritmética básica aplicada",
+        "objeto_de_analise": "Determinação do volume a ser enviado considerando uma perda constante",
+        "fenomeno_conceito": "Perda fixa por transporte independente do volume total"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "20 100",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorreria de considerar que a perda foi de apenas 100 litros (diferença entre 10 000 encomendados e 9 900 entregues), calculando 20 000 + 100 = 20 100 L."
+        },
+        {
+            "letra": "B",
+            "texto": "20 200",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorreria de duplicar a sobra inicialmente estimada pela distribuidora (200 L) sobre os 20 000 L, resultando em 20 200 L."
+        },
+        {
+            "letra": "C",
+            "texto": "20 300",
+            "correta": true,
+            "justificativa": "Correta. O volume descartado é fixo: 10 200 L (enviados) - 9 900 L (entregues) = 300 L. O novo pedido exige a entrega de exatamente o dobro do volume encomendado anteriormente: 2 x 10 000 L = 20 000 L. Portanto, o volume mínimo enviado deve ser 20 000 L + 300 L = 20 300 L."
+        },
+        {
+            "letra": "D",
+            "texto": "20 400",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorre de simplesmente dobrar o volume enviado na entrega anterior (2 x 10 200 L = 20 400 L), sem considerar que a perda é fixa (300 L) e não proporcional."
+        },
+        {
+            "letra": "E",
+            "texto": "20 600",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorreria de dobrar tanto o volume encomendado (20 000 L) quanto a perda calculada em duplicidade (2 x 300 L = 600 L), embora o transporte ocorra em uma única viagem (capacidade do caminhão é de 30 000 L)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-10-31T16:37:43.567249",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto estabelece que o volume descartado é constante e independe da quantidade transportada.",
+            "Calcula-se o descarte: 10 200 - 9 900 = 300 L.",
+            "O novo pedido quer entrega de 2 x 10 000 = 20 000 L.",
+            "Volume a enviar: 20 000 + 300 = 20 300 L.",
+            "O caminhão comporta até 30 000 L, portanto realiza apenas uma viagem."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-138.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

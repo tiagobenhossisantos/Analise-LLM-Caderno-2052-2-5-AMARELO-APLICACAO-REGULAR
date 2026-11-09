@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 151,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-151.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H7",
+            "descricao": "Identificar características de figuras planas ou espaciais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H8",
+                "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Espacial",
+        "conteudos_relacionados": [
+            "Poliedros",
+            "Relação de Euler",
+            "Contagem de elementos de figuras espaciais",
+            "Planificação de poliedros"
+        ],
+        "assunto": "Poliedros e contagem de vértices",
+        "objeto_de_analise": "Cúpula pentagonal giralongada",
+        "fenomeno_conceito": "Identificação do número de vértices de um poliedro a partir de suas camadas/faces"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "conteudo": "21",
+            "correta": false,
+            "justificativa": "Subestima a quantidade de vértices, provavelmente desconsiderando vértices de uma das camadas poligonais."
+        },
+        {
+            "letra": "B",
+            "conteudo": "25",
+            "correta": true,
+            "justificativa": "A cúpula pentagonal giralongada é formada por uma cúpula pentagonal acoplada a um antiprisma decagonal. Sua estrutura em níveis compreende a face superior pentagonal (5 vértices), um anel intermediário decagonal de junção (10 vértices) e a face inferior decagonal (10 vértices), totalizando 5 + 10 + 10 = 25 vértices."
+        },
+        {
+            "letra": "C",
+            "conteudo": "55",
+            "correta": false,
+            "justificativa": "Valor incorreto, que corresponde ao número de arestas (A = 55) do poliedro (pois V - A + F = 2, com F = 32 e V = 25, logo A = 25 + 32 - 2 = 55), confundindo vértices com arestas."
+        },
+        {
+            "letra": "D",
+            "conteudo": "80",
+            "correta": false,
+            "justificativa": "Valor inconsistente com o número de vértices do sólido tridimensional fechado."
+        },
+        {
+            "letra": "E",
+            "conteudo": "110",
+            "correta": false,
+            "justificativa": "Valor obtido ao somar os vértices dos polígonos da planificação isoladamente sem considerar as sobreposições na montagem do poliedro."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-31T21:32:44.436807",
+        "confianca": "alta",
+        "evidencias": [
+            "O sólido é uma cúpula pentagonal giralongada (Johnson solid J47).",
+            "Possui 32 faces (25 triângulos, 5 quadrados, 1 pentágono, 1 decágono), 55 arestas e 25 vértices.",
+            "A contagem direta pelas três 'camadas' de vértices fornece 5 + 10 + 10 = 25."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-151.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

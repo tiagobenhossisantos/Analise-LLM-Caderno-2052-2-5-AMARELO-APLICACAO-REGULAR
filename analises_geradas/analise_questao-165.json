@@ -1,0 +1,107 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "165",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-165.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H3",
+            "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Matemática Financeira e Operações com Números Racionais",
+        "conteudos_relacionados": [
+            "Porcentagem",
+            "Equações de 1º grau",
+            "Operações fundamentais"
+        ],
+        "assunto": "Cálculo de despesas, receita e lucro com variação percentual",
+        "objeto_de_analise": "Determinação do valor unitário da mensalidade com base na meta de lucro e custos fixos e variáveis",
+        "fenomeno_conceito": "Relação entre receita, despesa e lucro: Lucro = Receita - Despesa"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "185,60.",
+            "correta": false,
+            "justificativa": "Corresponde a calcular apenas o custo total (despesas totais de R$ 19.424,00 + desconsiderar ou deduzir erroneamente componentes) ou calcular a mensalidade necessária apenas para cobrir as despesas (R$ 19.424 / 120 ≈ 161,87) com outro erro de cálculo."
+        },
+        {
+            "letra": "B",
+            "texto": "226,09.",
+            "correta": false,
+            "justificativa": "Resultado obtido por equívocos na aplicação da porcentagem do seguro ou na soma dos custos e margem de lucro."
+        },
+        {
+            "letra": "C",
+            "texto": "245,20.",
+            "correta": true,
+            "justificativa": "O novo valor do seguro por veículo é R$ 36,00 × 1,20 = R$ 43,20. O custo total do seguro para os 120 veículos é 120 × R$ 43,20 = R$ 5.184,00. As despesas totais são R$ 14.240,00 + R$ 5.184,00 = R$ 19.424,00. Para se obter um lucro de R$ 10.000,00, a arrecadação deve ser R$ 19.424,00 + R$ 10.000,00 = R$ 29.424,00. Dividindo essa quantia pelas 120 vagas ocupadas: R$ 29.424,00 / 120 = R$ 245,20."
+        },
+        {
+            "letra": "D",
+            "texto": "268,93.",
+            "correta": false,
+            "justificativa": "Resultado obtido por erros aritméticos ao distribuir o lucro pretendido ou calcular o aumento de 20% sobre todas as despesas em vez de apenas sobre o seguro."
+        },
+        {
+            "letra": "E",
+            "texto": "285,60.",
+            "correta": false,
+            "justificativa": "Valor obtido ao aplicar indevidamente os 20% de acréscimo sobre a soma total das despesas ou sobre a receita final."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-11-01T17:19:13.057831",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige a resolução de uma situação-problema numérica com aplicação de porcentagem e divisão de custos e lucro entre 120 vagas.",
+            "Cálculo: Seguro novo = 36 * 1,2 = 43,20; Despesa total = 14.240 + (120 * 43,20) = 19.424; Receita = 19.424 + 10.000 = 29.424; Mensalidade = 29.424 / 120 = 245,20."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-165.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

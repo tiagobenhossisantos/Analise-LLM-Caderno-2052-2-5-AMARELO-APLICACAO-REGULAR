@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "180",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-180.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H16",
+            "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Proporcionalidade e Regra de Três",
+        "conteudos_relacionados": [
+            "Razão e proporção",
+            "Velocidade média",
+            "Grandezas diretamente proporcionais"
+        ],
+        "assunto": "Grandezas Proporcionais",
+        "objeto_de_analise": "Distância total percorrida por um jogador mantendo velocidade média constante ao longo do tempo de jogo",
+        "fenomeno_conceito": "Variação proporcional da distância em função do tempo decorrido a uma velocidade constante"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "4,5.",
+            "correta": false,
+            "justificativa": "Corresponde apenas à distância percorrida no segundo tempo regulamentar, desconsiderando a distância percorrida na prorrogação."
+        },
+        {
+            "letra": "B",
+            "texto": "6,0.",
+            "correta": false,
+            "justificativa": "Resultado incorreto, podendo decorrer de erro no cálculo da proporção ou ao considerar apenas a velocidade horária (6 km/h) como a distância total."
+        },
+        {
+            "letra": "C",
+            "texto": "7,5.",
+            "correta": true,
+            "justificativa": "O jogador jogou 45 minutos no segundo tempo regulamentar e 30 minutos na prorrogação, totalizando 75 minutos de partida. Mantendo a mesma velocidade média de 4,5 km em 45 minutos (0,1 km/min), na prorrogação ele percorreu 30 × 0,1 = 3,0 km. Logo, a distância total durante sua participação foi 4,5 + 3,0 = 7,5 km."
+        },
+        {
+            "letra": "D",
+            "texto": "9,0.",
+            "correta": false,
+            "justificativa": "Corresponde ao dobro da distância percorrida no segundo tempo regulamentar (como se tivesse jogado 90 minutos a essa mesma velocidade média)."
+        },
+        {
+            "letra": "E",
+            "texto": "12,0.",
+            "correta": false,
+            "justificativa": "Valor superestimado, obtido por operações incorretas com os tempos de jogo informados."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5-flash",
+        "datetime": "2026-11-09T14:19:37.895567",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto estabelece que no segundo tempo (45 min) o jogador percorreu 4,5 km e manteve a mesma velocidade na prorrogação (30 min).",
+            "A relação direta entre tempo e distância a velocidade constante caracteriza problema de grandezas diretamente proporcionais (H16)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-180.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 99,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-99.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais."
+        },
+        "habilidade_principal": {
+            "id": "H14",
+            "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Citologia",
+        "conteudos_relacionados": [
+            "Organelas celulares",
+            "Digestão intracelular",
+            "Doenças de depósito lisossômico"
+        ],
+        "assunto": "Fisiologia celular e funções das organelas citoplasmáticas",
+        "objeto_de_analise": "Papel dos lisossomos e hidrolases ácidas na degradação de macromoléculas",
+        "fenomeno_conceito": "Digestão intracelular heterofágica e autofágica por enzimas lisossômicas (lipase ácida)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Lisossomos.",
+            "correta": true,
+            "justificativa": "Os lisossomos são organelas citoplasmáticas responsáveis pela digestão intracelular de biomoléculas, contendo diversas hidrolases ácidas ativas em pH baixo, incluindo a lipase ácida. A falha funcional dessa enzima impede a quebra de lipídeos, gerando doenças de depósito lisossômico."
+        },
+        {
+            "letra": "B",
+            "texto": "Ribossomos.",
+            "correta": false,
+            "justificativa": "Os ribossomos são complexos ribonucleoproteicos responsáveis pela síntese de proteínas (tradução), não atuando diretamente na degradação hidrolítica intracelular de lipídeos."
+        },
+        {
+            "letra": "C",
+            "texto": "Mitocôndrias.",
+            "correta": false,
+            "justificativa": "As mitocôndrias são responsáveis pela respiração celular aeróbia e produção de ATP, embora realizem beta-oxidação de ácidos graxos, a enzima lipase ácida e o contexto de acúmulo patológico intracelular primário referido dizem respeito aos lisossomos."
+        },
+        {
+            "letra": "D",
+            "texto": "Peroxissomos.",
+            "correta": false,
+            "justificativa": "Os peroxissomos atuam principalmente na oxidação de ácidos graxos de cadeia muito longa e na degradação de peróxido de hidrogênio pela enzima catalase, não sendo a sede da lipase ácida que degrada ésteres de colesterol e triglicerídeos fagocitados/endocitados."
+        },
+        {
+            "letra": "E",
+            "texto": "Retículo endoplasmático liso.",
+            "correta": false,
+            "justificativa": "O retículo endoplasmático liso está envolvido na síntese de lipídeos e esteroides e na desintoxicação celular, não na degradação enzimática ácida descrita no texto."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-11-09T15:06:38.073650",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto menciona a lipase ácida e a incapacidade de degradar substratos com consequente acúmulo patológico, quadro clássico de doenças de armazenamento lisossômico (como a Doença de Wolman e Doença de Depósito de Éster de Colesterol).",
+            "Hidrolases ácidas são enzimas constitutivas e características exclusivas do ambiente interno dos lisossomos."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-99.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

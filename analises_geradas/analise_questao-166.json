@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 166,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-166.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H12",
+            "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H10",
+                "descricao": "Identificar relações entre grandezas e unidades de medida."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Grandezas e Medidas",
+        "conteudos_relacionados": [
+            "Conversão de unidades de volume e capacidade",
+            "Divisão e operações fundamentais"
+        ],
+        "assunto": "Conversão entre centímetros cúbicos e mililitros",
+        "objeto_de_analise": "Relação de equivalência entre as unidades de medida cm³ e mL para cálculo de capacidade de porções",
+        "fenomeno_conceito": "Equivalência de volume e capacidade (1 cm³ = 1 mL)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "5.",
+            "correta": false,
+            "justificativa": "Resultado incorreto decorrente de equívoco na manipulação das ordens de grandeza na divisão ou conversão das unidades."
+        },
+        {
+            "letra": "B",
+            "texto": "8.",
+            "correta": false,
+            "justificativa": "Incorreta, correspondendo a um erro de cálculo que divide o valor correto por um fator de 10 (ex.: supor erroneamente que 20 000 cm³ equivale a 2 000 mL)."
+        },
+        {
+            "letra": "C",
+            "texto": "50.",
+            "correta": false,
+            "justificativa": "Incorreta, resultante de erro operacional na divisão de 20 000 por 250."
+        },
+        {
+            "letra": "D",
+            "texto": "80.",
+            "correta": true,
+            "justificativa": "Sabendo que 1 cm³ é equivalente a 1 mL, temos que 20 000 cm³ correspondem a 20 000 mL. Dividindo o volume total pelo volume de cada taça (250 mL), obtém-se 20 000 / 250 = 80 taças."
+        },
+        {
+            "letra": "E",
+            "texto": "800.",
+            "correta": false,
+            "justificativa": "Incorreta, resultante de um erro de conversão de escala em que se multiplicou a capacidade por 10 em vez de manter a equivalência direta de 1 cm³ = 1 mL."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5-flash",
+        "datetime": "2026-11-01T17:21:30.553795",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige a resolução de uma situação-problema prática envolvendo grandezas de volume e capacidade.",
+            "A equivalência direta entre cm³ e mL (1 cm³ = 1 mL) é necessária para calcular a razão 20 000 / 250 = 80.",
+            "O gabarito oficial D confirma 80 taças."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-166.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

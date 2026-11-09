@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 160,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-160.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H6",
+            "descricao": "Interpretar a localização e a movimentação de pessoas/objetos no espaço tridimensional e sua representação no espaço bidimensional."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria plana e espacialização",
+        "conteudos_relacionados": [
+            "Localização e movimentação no plano bidimensional",
+            "Pontos cardeais e orientação espacial",
+            "Malha quadriculada"
+        ],
+        "assunto": "Orientação espacial e percursos em malha quadriculada",
+        "objeto_de_analise": "Trajetória percorrida entre esquinas em uma malha urbana de quarteirões",
+        "fenomeno_conceito": "Deslocamento vetorial/cartesiano em malha com direções cardeais"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "P.",
+            "correta": true,
+            "justificativa": "Partindo da extremidade nordeste do quarteirão P, ao caminhar para o oeste pela borda norte do quarteirão P até a esquina noroeste, virar à direita (norte), caminhar por três quarteirões para o norte e depois dobrar à esquerda (oeste), no segundo quarteirão a oeste chega-se exatamente à casa do amigo, identificada no quarteirão com a letra A."
+        },
+        {
+            "letra": "B",
+            "texto": "Q.",
+            "correta": false,
+            "justificativa": "O quarteirão Q está localizado na parte superior da malha (ao norte da casa do amigo), de modo que caminhar três quarteirões para o norte a partir de Q levaria para fora da malha e para longe da casa do amigo."
+        },
+        {
+            "letra": "C",
+            "texto": "R.",
+            "correta": false,
+            "justificativa": "O quarteirão R está na coluna mais a oeste da malha, o que impossibilita atingir a casa do amigo realizando o percurso descrito (andar para o norte e depois dois quarteirões a oeste)."
+        },
+        {
+            "letra": "D",
+            "texto": "S.",
+            "correta": false,
+            "justificativa": "O quarteirão S está no mesmo nível vertical da casa do amigo ou muito próximo horizontalmente, não permitindo um deslocamento de três quarteirões para o norte seguido de dois para o oeste até o ponto A."
+        },
+        {
+            "letra": "E",
+            "texto": "T.",
+            "correta": false,
+            "justificativa": "Partindo do quarteirão T, o deslocamento para oeste e posterior avanço de três quarteirões para o norte deixaria o trajeto desalinhado em relação à posição descrita da casa do amigo."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-11-01T17:08:52.145828",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão solicita identificar o quarteirão de origem a partir da descrição de um trajeto com referências de direção cardeal e mudanças de direção em uma malha bidimensional.",
+            "O gabarito oficial confirma a letra A (quarteirão P).",
+            "A habilidade H6 da Competência 2 de Matemática aborda diretamente a interpretação da movimentação e localização representadas no plano bidimensional."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-160.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "145",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-145.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H24",
+                "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Probabilidade",
+        "conteudos_relacionados": [
+            "Porcentagem",
+            "Interpretação de infográficos",
+            "Probabilidade condicional e regra da multiplicação"
+        ],
+        "assunto": "Cálculo de probabilidade a partir de porcentagens sucessivas",
+        "objeto_de_analise": "Distribuição percentual de internautas brasileiros e perfil por gênero no uso de redes sociais",
+        "fenomeno_conceito": "Multiplicação de probabilidades de eventos sucessivos / Porcentagem de porcentagem"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "30/90",
+            "correta": false,
+            "justificativa": "Incorreta. Corresponde a uma razão arbitrária que não decorre dos dados do texto (nem 40% de 90%, nem a proporção correta sobre o total)."
+        },
+        {
+            "letra": "B",
+            "texto": "36/100",
+            "correta": true,
+            "justificativa": "Correta. Dos internautas brasileiros, 90% acessam redes sociais. Desses que acessam redes sociais, se 60% são mulheres, então 40% são homens (100% - 60% = 40%). A probabilidade de escolher aleatoriamente um internauta brasileiro que seja homem e acesse rede social é 40% de 90%, ou seja, 0,40 × 0,90 = 0,36 = 36/100."
+        },
+        {
+            "letra": "C",
+            "texto": "40/100",
+            "correta": false,
+            "justificativa": "Incorreta. 40% é a fração de homens apenas entre os que acessam redes sociais, e não sobre o total de internautas brasileiros."
+        },
+        {
+            "letra": "D",
+            "texto": "40/90",
+            "correta": false,
+            "justificativa": "Incorreta. 40/90 indicaria a probabilidade condicional de ser homem dado que acessa rede social se o percentual de homens fosse 40 de 90 em números absolutos, ou confunde a base percentual considerando o espaço amostral restrito incorretamente."
+        },
+        {
+            "letra": "E",
+            "texto": "46/90",
+            "correta": false,
+            "justificativa": "Incorreta. Valor resultante de operações sem fundamento com os percentuais fornecidos no infográfico."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5-flash",
+        "datetime": "2026-10-31T21:24:26.596237",
+        "confianca": "alta",
+        "evidencias": [
+            "90% dos internautas acessam redes sociais: P(Rede) = 0,90",
+            "60% dos que acessam são mulheres, logo 40% são homens: P(Homem | Rede) = 0,40",
+            "P(Homem e Rede) = P(Rede) * P(Homem | Rede) = 0,90 * 0,40 = 0,36 = 36/100"
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-145.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "163",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-163.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H11",
+            "descricao": "Utilizar a noção de escalas na leitura de representação de situação do cotidiano."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H12",
+                "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Escala e Proporcionalidade",
+        "conteudos_relacionados": [
+            "Conversão de unidades de medida de comprimento",
+            "Razão e proporção"
+        ],
+        "assunto": "Grandezas e Medidas",
+        "objeto_de_analise": "Relação entre as medidas lineares do desenho e as da obra real",
+        "fenomeno_conceito": "Escala linear de representação"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "1 : 1,5",
+            "correta": false,
+            "justificativa": "Essa alternativa decorre do erro de calcular a razão 30 / 20 = 1,5 sem realizar a necessária conversão de unidades (metros para centímetros)."
+        },
+        {
+            "letra": "B",
+            "texto": "1 : 2,25",
+            "correta": false,
+            "justificativa": "Essa alternativa resulta de elevar ao quadrado o valor 1,5 (1,5² = 2,25), confundindo a escala linear com uma relação de proporcionalidade de áreas, além de manter o erro de conversão de unidades."
+        },
+        {
+            "letra": "C",
+            "texto": "1 : 10",
+            "correta": false,
+            "justificativa": "Valor obtido por erro de cálculo de ordem de grandeza ou aproximação incorreta da proporção entre as dimensões."
+        },
+        {
+            "letra": "D",
+            "texto": "1 : 100",
+            "correta": false,
+            "justificativa": "Representa apenas o fator de conversão de metros para centímetros (1 m = 100 cm), desconsiderando a razão real entre os valores numéricos de 20 e 30."
+        },
+        {
+            "letra": "E",
+            "texto": "1 : 150",
+            "correta": true,
+            "justificativa": "A escala é a razão entre a medida no desenho e a medida na obra real, expressas na mesma unidade: 20 cm / 30 m = 20 cm / 3 000 cm = 1 / 150, isto é, 1 : 150."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-01T17:14:10.763207",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando da questão solicita explicitamente: 'Em qual escala esse desenho representa a obra de arte?'.",
+            "A dimensão no desenho indicada na figura é 20 cm e a medida real correspondente é ampliada para 30 m.",
+            "Convertendo para a mesma unidade: 30 m = 3000 cm. Escala = 20 / 3000 = 1 / 150."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-163.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

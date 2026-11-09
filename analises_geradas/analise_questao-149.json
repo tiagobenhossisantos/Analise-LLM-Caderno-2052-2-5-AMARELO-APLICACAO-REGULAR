@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "149",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-149.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H24",
+                "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+            },
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estatística descritiva (interpretação de gráficos e porcentagem)",
+        "conteudos_relacionados": [
+            "Operações com porcentagem",
+            "Leitura de gráfico de setores",
+            "Leitura de gráfico de barras"
+        ],
+        "assunto": "Interpretação de gráficos de setores e barras associada ao cálculo de porcentagens",
+        "objeto_de_analise": "Distribuição de matrículas por idioma em diferentes anos letivos",
+        "fenomeno_conceito": "Cálculo de parte de um total determinado a partir da soma de frequências absolutas e aplicação de frequência relativa"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "2.",
+            "correta": false,
+            "justificativa": "Incorreta. Corresponde a um erro de cálculo, possivelmente calculando 10% do número de matrículas de francês em 2024 (10% de 20 = 2), ignorando o total de matrículas."
+        },
+        {
+            "letra": "B",
+            "texto": "12.",
+            "correta": false,
+            "justificativa": "Incorreta. Não tem fundamentação matemática direta a partir dos dados do problema."
+        },
+        {
+            "letra": "C",
+            "texto": "20.",
+            "correta": false,
+            "justificativa": "Incorreta. Este é o número absoluto de matrículas de francês em 2024, sem considerar a nova estimativa para 2025."
+        },
+        {
+            "letra": "D",
+            "texto": "22.",
+            "correta": false,
+            "justificativa": "Incorreta. Valor resultante de operações aritméticas errôneas com os dados dos gráficos."
+        },
+        {
+            "letra": "E",
+            "texto": "40.",
+            "correta": true,
+            "justificativa": "Correta. O total de matrículas em 2024 foi de 280 + 80 + 20 + 20 = 400. Como a estimativa para 2025 prevê o mesmo total (400) com o percentual de 2023 (10% para o curso de francês), temos 10% de 400 = 40 matrículas."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-31T21:30:21.079429",
+        "confianca": "alta",
+        "evidencias": [
+            "Total de matrículas em 2024 obtido pelo gráfico de barras: 280 + 80 + 20 + 20 = 400.",
+            "Percentual de francês em 2023 obtido pelo gráfico de setores: 10%.",
+            "Aplicação de 10% sobre 400 resulta em 40, condizente com a alternativa E e com o gabarito oficial."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-149.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "150",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-150.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H11",
+            "descricao": "Utilizar a noção de escalas na leitura de representação de situação do cotidiano."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H12",
+                "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Escalas e Proporcionalidade",
+        "conteudos_relacionados": [
+            "Razão e proporção",
+            "Conversão e cálculo de medidas reais a partir de escalas"
+        ],
+        "assunto": "Escala numérica",
+        "objeto_de_analise": "Determinação do deslocamento real a partir de medidas no desenho e escalas numéricas associadas",
+        "fenomeno_conceito": "Relação de escala (comprimento no desenho / comprimento real)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "I.",
+            "correta": false,
+            "justificativa": "O deslocamento real correspondente à Tela I é 9 cm × 100 = 900 cm, que não é o maior."
+        },
+        {
+            "letra": "B",
+            "texto": "II.",
+            "correta": false,
+            "justificativa": "O deslocamento real correspondente à Tela II é 5 cm × 300 = 1 500 cm, inferior ao da Tela III."
+        },
+        {
+            "letra": "C",
+            "texto": "III.",
+            "correta": true,
+            "justificativa": "O deslocamento real correspondente à Tela III é 5 cm × 600 = 3 000 cm (ou 30 metros), sendo o maior comprimento entre todos os deslocamentos apresentados."
+        },
+        {
+            "letra": "D",
+            "texto": "IV.",
+            "correta": false,
+            "justificativa": "O deslocamento real correspondente à Tela IV é 3 cm × 700 = 2 100 cm, inferior ao da Tela III."
+        },
+        {
+            "letra": "E",
+            "texto": "V.",
+            "correta": false,
+            "justificativa": "O deslocamento real correspondente à Tela V é 2 cm × 1 000 = 2 000 cm, inferior ao da Tela III."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-31T21:31:32.847705",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige calcular a distância real correspondente multiplicando a medida no display pelo denominador da escala em cada uma das cinco situações.",
+            "O cálculo revela que a Tela III resulta no maior comprimento real (3 000 cm), confirmando a alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-150.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 174,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-174.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H12",
+            "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H8",
+                "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+            },
+            {
+                "id": "H10",
+                "descricao": "Identificar relações entre grandezas e unidades de medida."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Espacial e Grandezas e Medidas",
+        "conteudos_relacionados": [
+            "Volume de paralelepípedo reto retângulo",
+            "Conversão de unidades de capacidade e volume (dm³, litros e mililitros)",
+            "Desigualdades e limites operacionais"
+        ],
+        "assunto": "Cálculo de volume e capacidade com restrição de valor mínimo",
+        "objeto_de_analise": "Volume de água retido na caixa de descarga e o deslocamento volumétrico por corpos submersos",
+        "fenomeno_conceito": "Deslocamento volumétrico e conservação de volume em recipientes"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "10",
+            "correta": false,
+            "justificativa": "Incorreta. Com 10 garrafas de 300 mL, o volume ocupado seria de 3 000 mL (3,0 L). O volume de água despejado seria de 7,5 L - 3,0 L = 4,5 L, valor inferior ao mínimo necessário de 5 L."
+        },
+        {
+            "letra": "B",
+            "texto": "8",
+            "correta": true,
+            "justificativa": "Correta. O volume total da coluna de água é V = 2,5 dm × 1,5 dm × 2 dm = 7,5 dm³ = 7,5 L. Como o volume mínimo de água necessário é de 5 L, o volume máximo que as garrafas podem ocupar é de 7,5 L - 5 L = 2,5 L = 2 500 mL. Dividindo 2 500 mL por 300 mL (volume de cada garrafa), obtém-se 2500 / 300 ≈ 8,33. Portanto, a quantidade máxima inteira de garrafas é 8 (ocupando 2 400 mL = 2,4 L e restando 5,1 L de água, o que garante a eficiência)."
+        },
+        {
+            "letra": "C",
+            "texto": "4",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de equívocos na interpretação das dimensões ou cálculo incorreto da capacidade máxima permitida para as garrafas. Com 4 garrafas, o sistema funciona, mas não é a quantidade máxima possível."
+        },
+        {
+            "letra": "D",
+            "texto": "3",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor não representa o número máximo de garrafas possíveis para manter pelo menos 5 L de água na descarga."
+        },
+        {
+            "letra": "E",
+            "texto": "2",
+            "correta": false,
+            "justificativa": "Incorreta. Representa uma quantidade viável, mas longe de ser a quantidade máxima pedida no enunciado."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-11-01T17:47:24.787299",
+        "confianca": "alta",
+        "evidencias": [
+            "Volume da caixa preenchida = 2,5 * 1,5 * 2 = 7,5 dm³ = 7,5 L.",
+            "Para manter pelo menos 5 L de água, o volume ocupado pelas garrafas não pode ultrapassar 7,5 - 5 = 2,5 L = 2500 mL.",
+            "2500 / 300 = 8,333..., logo o maior número inteiro de garrafas é 8."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-174.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

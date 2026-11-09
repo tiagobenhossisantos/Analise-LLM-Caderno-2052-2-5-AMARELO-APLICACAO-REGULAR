@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "146",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-146.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H3",
+            "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H16",
+                "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Operações com números racionais e proporcionalidade",
+        "conteudos_relacionados": [
+            "Razão e proporção",
+            "Divisão com números racionais",
+            "Otimização e tomada de decisão"
+        ],
+        "assunto": "Aritmética e Proporcionalidade",
+        "objeto_de_analise": "Consumo de combustível e capacidade mínima de armazenamento",
+        "fenomeno_conceito": "Determinação de consumo semanal total a partir de taxas de consumo diário e eficiência"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "10",
+            "correta": false,
+            "justificativa": "Um cilindro de 10 m³ permite rodar apenas 10 * 13 = 130 km, valor insuficiente para a demanda semanal de 210 km (30 km/dia * 7 dias = 210 km)."
+        },
+        {
+            "letra": "B",
+            "texto": "14",
+            "correta": false,
+            "justificativa": "Um cilindro de 14 m³ permite rodar 14 * 13 = 182 km, valor inferior aos 210 km necessários para a semana."
+        },
+        {
+            "letra": "C",
+            "texto": "17",
+            "correta": true,
+            "justificativa": "A demanda semanal é de 30 km * 7 = 210 km. O volume necessário é de 210 / 13 ≈ 16,15 m³. O cilindro de 17 m³ é a menor capacidade disponível capaz de comportar pelo menos 16,15 m³, garantindo apenas um abastecimento por semana ao menor preço possível."
+        },
+        {
+            "letra": "D",
+            "texto": "21",
+            "correta": false,
+            "justificativa": "Embora a capacidade de 21 m³ atenda à exigência de rodar 210 km semanalmente, ela não tem o menor preço, pois o cilindro de 17 m³ já é suficiente e possui custo inferior."
+        },
+        {
+            "letra": "E",
+            "texto": "25",
+            "correta": false,
+            "justificativa": "Embora seja suficiente para a autonomia semanal, é a opção de maior capacidade e, consequentemente, a de maior preço entre as disponíveis."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-10-31T21:26:29.813662",
+        "confianca": "alta",
+        "evidencias": [
+            "Distância semanal: 30 km/dia x 7 dias = 210 km.",
+            "Consumo de gás: 1 m³ a cada 13 km, resultando em 210 / 13 ≈ 16,15 m³ de GNV necessários.",
+            "Condição de contorno: menor preço (menor volume) que atenda à condição de no mínimo 16,15 m³, correspondendo ao cilindro de 17 m³."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-146.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "154",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-154.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H2",
+                "descricao": "Identificar padrões numéricos ou princípios de contagem."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Probabilidade",
+        "conteudos_relacionados": [
+            "Princípio Fundamental da Contagem",
+            "Permutação simples",
+            "Espaço amostral"
+        ],
+        "assunto": "Cálculo de probabilidade clássica e contagem",
+        "objeto_de_analise": "Distribuição aleatória de envelopes contendo celulares aos candidatos",
+        "fenomeno_conceito": "Probabilidade de ocorrência de um evento em um espaço amostral equiprovável"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "1/2",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor não corresponde à razão entre o único caso favorável e o número total de permutações possíveis."
+        },
+        {
+            "letra": "B",
+            "texto": "1/10",
+            "correta": false,
+            "justificativa": "Incorreta. O espaço amostral de permutações de quatro elementos não é igual a 10."
+        },
+        {
+            "letra": "C",
+            "texto": "1/16",
+            "correta": false,
+            "justificativa": "Incorreta. Considera equivocadamente um modelo com reposição no qual haveria 4^2 ou algo equivalente a potências de 4, ignorando que os envelopes são objetos distintos distribuídos sem repetição (permutação)."
+        },
+        {
+            "letra": "D",
+            "texto": "1/24",
+            "correta": true,
+            "justificativa": "Correta. O número total de maneiras distintas de distribuir os quatro envelopes para os quatro candidatos é dado pela permutação de 4 elementos, ou seja, 4! = 4 × 3 × 2 × 1 = 24. Apenas 1 dessas atribuições corresponde à devolução correta a todos os candidatos. Logo, a probabilidade é 1/24."
+        },
+        {
+            "letra": "E",
+            "texto": "1/256",
+            "correta": false,
+            "justificativa": "Incorreta. Decorre do cálculo de 4^4 = 256 no denominador, o que assume incorretamente que cada um dos 4 candidatos poderia receber qualquer um dos 4 celulares de forma independente e com reposição."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2025-05",
+        "datetime": "2026-10-31T21:36:45.882001",
+        "confianca": "alta",
+        "evidencias": [
+            "Quatro candidatos e quatro envelopes distribuídos aleatoriamente.",
+            "Cálculo do espaço amostral: permutação simples de 4 elementos (4! = 24).",
+            "Apenas 1 caso favorável em que todos recebem seus próprios celulares.",
+            "Gabarito oficial é a alternativa D (1/24)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-154.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

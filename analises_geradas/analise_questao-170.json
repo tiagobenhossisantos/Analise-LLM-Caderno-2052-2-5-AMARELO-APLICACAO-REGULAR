@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "170",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-170.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H10",
+            "descricao": "Identificar relações entre grandezas e unidades de medida."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Grandezas e Medidas",
+        "conteudos_relacionados": [
+            "Razão entre grandezas",
+            "Análise dimensional de unidades"
+        ],
+        "assunto": "Unidades de medida derivadas",
+        "objeto_de_analise": "Definição operacional de luminância e obtenção de sua unidade de medida",
+        "fenomeno_conceito": "Relação entre grandezas físicas e derivação de unidades no SI"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "cd / m²",
+            "correta": true,
+            "justificativa": "A luminância é definida como a razão entre a intensidade luminosa (medida em candela, cd) e o quadrado da distância (medida em metros ao quadrado, m²), resultando na unidade cd/m²."
+        },
+        {
+            "letra": "B",
+            "texto": "m² / cd",
+            "correta": false,
+            "justificativa": "Inverte a razão descrita no enunciado, colocando o quadrado da distância no numerador e a intensidade luminosa no denominador."
+        },
+        {
+            "letra": "C",
+            "texto": "cd / m",
+            "correta": false,
+            "justificativa": "Considera a razão entre a intensidade luminosa e a distância linear, sem elevar a distância ao quadrado."
+        },
+        {
+            "letra": "D",
+            "texto": "m / cd",
+            "correta": false,
+            "justificativa": "Inverte os termos da razão e não eleva a unidade de distância ao quadrado."
+        },
+        {
+            "letra": "E",
+            "texto": "m / cd²",
+            "correta": false,
+            "justificativa": "Inverte as grandezas na razão e eleva incorretamente a unidade de intensidade luminosa ao quadrado."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1-preview",
+        "datetime": "2026-11-01T17:30:40.663782",
+        "confianca": "alta",
+        "evidencias": [
+            "O enunciado estabelece que a luminância é 'a razão entre a intensidade luminosa, medida em candela (cd), e o quadrado da distância do objeto até o foco de luz, medida em metro (m)'.",
+            "Razão significa divisão: intensidade luminosa / (distância)².",
+            "Unidade resultante: cd / m².",
+            "A habilidade H10 da Matriz de Referência de Matemática prevê expressamente 'Identificar relações entre grandezas e unidades de medida'."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-170.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 157,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-157.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H29",
+                "descricao": "Utilizar conhecimentos de estatística e probabilidade como recurso para a construção de argumentação."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estatística descritiva",
+        "conteudos_relacionados": [
+            "Média aritmética",
+            "Desvio padrão",
+            "Dispersão de dados",
+            "Mediana",
+            "Moda"
+        ],
+        "assunto": "Medidas de tendência central e medidas de dispersão",
+        "objeto_de_analise": "Distribuição de idades em grupos amostrais e interpretação do desvio padrão",
+        "fenomeno_conceito": "Variabilidade em torno da média amostral"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "1",
+            "correta": false,
+            "justificativa": "No Grupo 1, a média é 25 e o desvio padrão é 10. Um desvio padrão elevado permite grande dispersão dos dados, sendo perfeitamente possível que a maioria das idades esteja fora do intervalo [20, 30] (por exemplo, mulheres com 10 anos e 40 anos)."
+        },
+        {
+            "letra": "B",
+            "texto": "2",
+            "correta": false,
+            "justificativa": "No Grupo 2, a mediana é 25 e o desvio padrão é 9. Apenas saber que o elemento central é 25, com alto desvio padrão, não garante que a maioria dos 11 elementos esteja concentrada entre 20 e 30."
+        },
+        {
+            "letra": "C",
+            "texto": "3",
+            "correta": false,
+            "justificativa": "No Grupo 3, a moda é 25. A moda apenas indica o valor mais frequente (que pode ocorrer apenas 2 vezes entre os 11 dados), não garantindo que a maioria (pelo menos 6) tenha idades entre 20 e 30 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "4",
+            "correta": true,
+            "justificativa": "No Grupo 4, a média é 25 e o desvio padrão é 1 (variância = 1). Como a variância é a média dos desvios quadráticos em relação à média (25), se houvesse sequer uma pessoa fora do intervalo [20, 30] (isto é, com desvio em relação a 25 maior ou igual a 6), a soma dos quadrados dos desvios seria pelo menos 6² = 36, o que geraria uma variância de no mínimo 36/11 ≈ 3,27 > 1. Portanto, nenhuma mulher pode ter idade menor que 20 ou maior que 30, garantindo que todas as 11 (e, com certeza, a maioria) têm idades entre 20 e 30 anos."
+        },
+        {
+            "letra": "E",
+            "texto": "5",
+            "correta": false,
+            "justificativa": "No Grupo 5, a menor idade é 20 e a maior é 35. Não há informações sobre a distribuição das outras 9 mulheres, que poderiam, por exemplo, ter todas idades entre 31 e 35 anos, descumprindo a condição de que a maioria esteja entre 20 e 30."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-10-31T21:41:39.966541",
+        "confianca": "alta",
+        "evidencias": [
+            "Cada grupo possui 11 pessoas, logo a maioria exige no mínimo 6 pessoas no intervalo [20, 30].",
+            "O Grupo 4 apresenta média 25 e desvio padrão 1.",
+            "Pela definição de variância, qualquer dado x com |x - 25| >= 6 implicaria variância >= 36/11 > 1, logo nenhum dado pode estar fora de [20, 30]."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-157.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

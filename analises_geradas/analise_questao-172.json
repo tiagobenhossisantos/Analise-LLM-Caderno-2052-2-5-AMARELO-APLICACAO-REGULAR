@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "172",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-172.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            },
+            {
+                "id": "H24",
+                "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Interpretação de Gráficos e Operações Numéricas",
+        "conteudos_relacionados": [
+            "Razão e proporção",
+            "Leitura e análise de gráficos cartesianos",
+            "Matemática financeira básica"
+        ],
+        "assunto": "Consumo de combustível e custos a partir da leitura de gráficos",
+        "objeto_de_analise": "Gráficos de rendimento de combustível em função da velocidade",
+        "fenomeno_conceito": "Relação entre distância percorrida, rendimento do veículo e custo monetário"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "4",
+            "correta": false,
+            "justificativa": "Incorreta. Corresponde a equívocos nas operações de cálculo do consumo ou diferença direta entre parâmetros não homogêneos."
+        },
+        {
+            "letra": "B",
+            "texto": "8",
+            "correta": false,
+            "justificativa": "Incorreta. Valor que não reflete a diferença real entre os gastos calculados para ambos os combustíveis."
+        },
+        {
+            "letra": "C",
+            "texto": "14",
+            "correta": false,
+            "justificativa": "Incorreta. Pode resultar de um erro ao considerar distâncias ou leituras incorretas de pontos dos eixos dos gráficos."
+        },
+        {
+            "letra": "D",
+            "texto": "21",
+            "correta": true,
+            "justificativa": "Correta. A 60 km/h, o rendimento com GNV é de 10 km/m³ e com gasolina é de 8 km/L. Para 120 km com gasolina: 120 / 8 = 15 L; ao preço de R$ 3,00/L, o custo foi de R$ 45,00. Para 120 km com GNV: 120 / 10 = 12 m³; ao preço de R$ 2,00/m³, o custo foi de R$ 24,00. A diferença entre os gastos é 45 - 24 = R$ 21,00."
+        },
+        {
+            "letra": "E",
+            "texto": "30",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de erros na determinação do volume necessário ou na aplicação dos preços unitários."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-10-31T21:44:00.766628",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige a leitura de valores nos eixos dos gráficos a 60 km/h para determinar rendimentos (GNV e Gasolina).",
+            "Exige o cálculo do consumo pela relação distância/rendimento e posterior cálculo do custo multiplicando pelo preço por unidade de medida.",
+            "Finaliza com a diferença em reais entre os dois valores encontrados, configurando a resolução de situação-problema a partir de dados gráficos (H25)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-172.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

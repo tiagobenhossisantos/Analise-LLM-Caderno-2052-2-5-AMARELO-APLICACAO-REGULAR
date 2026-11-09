@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 141,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-141.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H7",
+            "descricao": "Identificar características de figuras planas ou espaciais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H8",
+                "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Espacial",
+        "conteudos_relacionados": [
+            "Prismas",
+            "Tronco de pirâmide",
+            "Congruência de figuras planas",
+            "Poliedros"
+        ],
+        "assunto": "Identificação e congruência de faces de poliedros compostos",
+        "objeto_de_analise": "Superfície externa de um poliedro formado pela união de um prisma hexagonal reto e um tronco de pirâmide hexagonal reta",
+        "fenomeno_conceito": "Contagem de classes de equivalência de faces congruentes na superfície de um poliedro"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "9",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor não corresponde à classificação das faces congruentes do poliedro resultante, podendo decorrer de erros no cálculo do número de faces ou agrupamentos aleatórios."
+        },
+        {
+            "letra": "B",
+            "texto": "8",
+            "correta": false,
+            "justificativa": "Incorreta. O valor 8 pode surgir ao considerar erroneamente a quantidade de faces de um dos sólidos isolados ou adicionar bases de forma incorreta."
+        },
+        {
+            "letra": "C",
+            "texto": "6",
+            "correta": false,
+            "justificativa": "Incorreta. O número 6 corresponde ao número de faces laterais de cada um dos sólidos individuais (6 retângulos e 6 trapézios), e não ao total de tipos de faces distintas da superfície externa."
+        },
+        {
+            "letra": "D",
+            "texto": "4",
+            "correta": true,
+            "justificativa": "Correta. A superfície externa do protótipo é composta por 4 conjuntos de faces congruentes entre si: 1) uma base hexagonal regular maior (base inferior do prisma); 2) uma base hexagonal regular menor (base superior do tronco de pirâmide); 3) seis retângulos congruentes entre si (faces laterais do prisma); 4) seis trapézios isósceles congruentes entre si (faces laterais do tronco de pirâmide). Como cada conjunto de faces congruentes recebe uma cor distinta, serão necessárias 4 cores."
+        },
+        {
+            "letra": "E",
+            "texto": "3",
+            "correta": false,
+            "justificativa": "Incorreta. Esse resultado seria obtido se o candidato assumisse erroneamente que as duas bases hexagonais (maior e menor) fossem congruentes, o que não ocorre em um tronco de pirâmide."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5-flash",
+        "datetime": "2026-10-31T21:22:33.985085",
+        "confianca": "alta",
+        "evidencias": [
+            "O sólido é formado pela justaposição de um prisma hexagonal regular reto e um tronco de pirâmide hexagonal reta.",
+            "A base de contato é interna e não é pintada.",
+            "As faces externas consistem em: 1 hexágono maior, 1 hexágono menor, 6 retângulos e 6 trapézios isósceles.",
+            "Existem exatamente 4 tipos distintos de faces congruentes entre si, totalizando 4 cores necessárias."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-141.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

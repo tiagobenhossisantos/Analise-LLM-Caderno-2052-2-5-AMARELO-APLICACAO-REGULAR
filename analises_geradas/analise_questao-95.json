@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 95,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-95.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C8",
+            "descricao": "Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Biomas brasileiros e adaptação biológica",
+        "conteudos_relacionados": [
+            "Adaptações morfofisiológicas a ambientes áridos",
+            "Ecologia da Caatinga",
+            "Biogeografia"
+        ],
+        "assunto": "Adaptações de animais aos biomas brasileiros",
+        "objeto_de_analise": "Monstro de gila e lagartos adaptados à aridez e escassez de recursos",
+        "fenomeno_conceito": "Adaptação evolutiva por convergência ecológica em ambientes semiáridos/áridos"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Cerrado.",
+            "correta": false,
+            "justificativa": "O Cerrado é uma savana tropical marcada por sazonalidade de chuvas e solos ácidos, mas não apresenta as condições semiáridas extremas de restrição hídrica e alimentar análogas aos desertos como a Caatinga."
+        },
+        {
+            "letra": "B",
+            "texto": "Pampas.",
+            "correta": false,
+            "justificativa": "O Pampa é um bioma subtropical com campos sulinos de clima temperado e chuvas regulares, sem correspondência com o ambiente árido do deserto."
+        },
+        {
+            "letra": "C",
+            "texto": "Caatinga.",
+            "correta": true,
+            "justificativa": "A Caatinga é o bioma brasileiro caracterizado pelo clima semiárido, com períodos prolongados de estiagem, escassez de água e estresse alimentar, sendo o mais similar ao deserto onde vive o monstro de gila."
+        },
+        {
+            "letra": "D",
+            "texto": "Restinga.",
+            "correta": false,
+            "justificativa": "A restinga é uma formação vegetal associada à Mata Atlântica sobre solos arenosos costeiros, não representando um bioma árido/semiárido de grande extensão análogo aos desertos."
+        },
+        {
+            "letra": "E",
+            "texto": "Pantanal.",
+            "correta": false,
+            "justificativa": "O Pantanal é a maior planície alagável contínua do mundo, marcada por períodos intensos de inundação, apresentando condições ecológicas muito distintas das desérticas."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-11-09T14:42:02.045388",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto base cita o monstro de gila como lagarto adaptado ao deserto e à falta de alimento.",
+            "O comando solicita o bioma brasileiro mais provável para encontrar lagartos com adaptações similares (analogia ecológica com ambiente desértico/árido).",
+            "A Caatinga é o bioma semiárido brasileiro com forte estresse hídrico e alimentar, correspondendo diretamente à H28 da Matriz."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-95.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

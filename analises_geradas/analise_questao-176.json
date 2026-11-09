@@ -1,0 +1,109 @@
+    {
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 176,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-176.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Função Logarítmica e Função Quadrática",
+        "conteudos_relacionados": [
+            "Vértice da parábola (ponto de máximo)",
+            "Propriedades dos logaritmos",
+            "Inequações"
+        ],
+        "assunto": "Estudo de funções e modelagem algébrica",
+        "objeto_de_analise": "Determinação do parâmetro K para limitar a pressão máxima de uma máquina em um intervalo contínuo de tempo",
+        "fenomeno_conceito": "Ponto de máximo de uma função quadrática combinado com o comportamento estritamente crescente da função logarítmica"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "10^{0,5}",
+            "correta": true,
+            "justificativa": "O termo quadrático f(t) = -(t + 1)(t - 19) atinge seu valor máximo no vértice t = (-1 + 19)/2 = 9 horas, que pertence ao intervalo de operação diária de [0, 10] horas. Para t = 9, f(9) = -(10)(-10) = 100. Como a função logarítmica na base 10 é crescente, a pressão máxima é P_máx = 4 · log(100K). Impondo a restrição do fabricante P_máx ≤ 10, obtém-se 4 · log(100K) ≤ 10 ⇒ log(100K) ≤ 2,5 ⇒ 100K ≤ 10^{2,5} ⇒ K ≤ 10^{2,5}/10^2 = 10^{0,5}. Logo, o maior valor para K é 10^{0,5}."
+        },
+        {
+            "letra": "B",
+            "texto": "10^{8}",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorre de erros operacionais no manuseio das propriedades dos logaritmos e na divisão dos expoentes."
+        },
+        {
+            "letra": "C",
+            "texto": "\\frac{10^{2,5}}{84}",
+            "correta": false,
+            "justificativa": "Incorreta. O valor 84 corresponde a avaliar a expressão em t = 5 (-(5+1)(5-19) = -(6)(-14) = 84), que não é o ponto de máximo da função no intervalo de operação."
+        },
+        {
+            "letra": "D",
+            "texto": "\\frac{10^{2,5}}{99}",
+            "correta": false,
+            "justificativa": "Incorreta. O valor 99 seria obtido calculando o termo quadrático no extremo t = 10 (-(10+1)(10-19) = -(11)(-9) = 99), desconsiderando que o valor máximo ocorre no vértice em t = 9."
+        },
+        {
+            "letra": "E",
+            "texto": "25 \\times 10^{-2}",
+            "correta": false,
+            "justificativa": "Incorreta. O valor 0,25 decorre de um equívoco ao isolar a variável no expoente ou confundir a base da potência com operações lineares simples."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5-pro-202505",
+        "datetime": "2026-10-31T21:45:25.694913",
+        "confianca": "alta",
+        "evidencias": [
+            "O problema modela a pressão por meio de uma função composta com logaritmo e polinômio de 2º grau.",
+            "Identificação do vértice da parábola em t = 9 h, interior ao intervalo [0, 10].",
+            "Aplicação direta da inequação 4 * log(100K) <= 10 resultando em K <= 10^0,5.",
+            "Gabarito oficial A confirmado pelos cálculos."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-176.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

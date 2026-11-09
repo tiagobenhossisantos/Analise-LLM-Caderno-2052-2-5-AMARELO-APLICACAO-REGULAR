@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 152,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-152.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano."
+        },
+        "habilidade_principal": {
+            "id": "H16",
+            "descricao": "Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Proporcionalidade e Regra de Três Composta",
+        "conteudos_relacionados": [
+            "Operações fundamentais",
+            "Razão e proporção",
+            "Grandezas diretamente proporcionais"
+        ],
+        "assunto": "Variação de grandezas",
+        "objeto_de_analise": "Produção diária de tijolos em função do número de funcionários e horas trabalhadas",
+        "fenomeno_conceito": "Proporcionalidade direta entre quantidade de trabalho (horas-homem) e produção"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "800.",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor pode decorrer de cálculo incorreto considerando apenas o acréscimo de 2 funcionários sem ponderar o aumento da jornada de trabalho diária (720 / 3 * 2 = 480, somado incorretamente ou associado a erros de razão direta simples)."
+        },
+        {
+            "letra": "B",
+            "texto": "1 080.",
+            "correta": false,
+            "justificativa": "Incorreta. Corresponde a considerar apenas o aumento da jornada de trabalho de 6 para 9 horas mantendo os 3 funcionários (720 * 9 / 6 = 1 080), desconsiderando a contratação de novos funcionários."
+        },
+        {
+            "letra": "C",
+            "texto": "1 200.",
+            "correta": false,
+            "justificativa": "Incorreta. Corresponde a considerar apenas o aumento de 3 para 5 funcionários mantendo a jornada de 6 horas diárias (720 * 5 / 3 = 1 200), ignorando o aumento para 9 horas diárias."
+        },
+        {
+            "letra": "D",
+            "texto": "1 800.",
+            "correta": true,
+            "justificativa": "Correta. Inicialmente, 3 funcionários trabalhando 6 horas/dia totalizam 18 horas de trabalho diárias, produzindo 720 tijolos (produtividade de 720 / 18 = 40 tijolos/hora de funcionário). Com 5 funcionários trabalhando 9 horas/dia, o total de horas diárias passa a 5 * 9 = 45 horas. A nova produção diária é 45 * 40 = 1 800 tijolos."
+        },
+        {
+            "letra": "E",
+            "texto": "2 520.",
+            "correta": false,
+            "justificativa": "Incorreta. Resultado obtido por erros de montagem na proporção ou soma inadequada de fatores de proporção acrescidos à produção inicial."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-31T21:34:07.432328",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão propõe um problema clássico de regra de três composta envolvendo número de funcionários, horas por dia e quantidade produzida.",
+            "A habilidade H16 da Matriz de Referência aborda expressamente 'Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais'.",
+            "O gabarito oficial fornecido indica a alternativa D."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-152.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

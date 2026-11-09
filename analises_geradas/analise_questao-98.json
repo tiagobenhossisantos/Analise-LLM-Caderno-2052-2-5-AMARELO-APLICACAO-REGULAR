@@ -1,0 +1,107 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "98",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-98.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C8",
+            "descricao": "Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H30",
+            "descricao": "Avaliar propostas de alcance individual ou coletivo, identificando aquelas que visam à preservação e a implementação da saúde individual, coletiva ou do ambiente."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Biologia humana e saúde",
+        "conteudos_relacionados": [
+            "Fisiologia animal",
+            "Bioquímica e toxicologia",
+            "Profilaxia e medidas de segurança alimentar"
+        ],
+        "assunto": "Prevenção de intoxicação alimentar por tetrodotoxina",
+        "objeto_de_analise": "Preparo culinário do peixe baiacu e localização da neurotoxina",
+        "fenomeno_conceito": "Termoestabilidade e acúmulo tecidual/orgânico de toxinas"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Criar os peixes em cativeiro.",
+            "correta": false,
+            "justificativa": "A criação em cativeiro não é a intervenção de preparo culinário descrita ou suficiente para impedir a contaminação imediata caso haja presença da toxina natural ou adquirida."
+        },
+        {
+            "letra": "B",
+            "texto": "Realizar a pesca com redes.",
+            "correta": false,
+            "justificativa": "O método de captura não interfere na produção, no acúmulo da toxina nas vísceras nem na prevenção da contaminação da carne."
+        },
+        {
+            "letra": "C",
+            "texto": "Consumir peixes cozidos ou fritos.",
+            "correta": false,
+            "justificativa": "O texto deixa claro que a tetrodotoxina é 'termoestável', o que significa que ela não é inativada pelo calor da cocção ou da fritura."
+        },
+        {
+            "letra": "D",
+            "texto": "Preparar o peixe em condições adequadas de higiene.",
+            "correta": false,
+            "justificativa": "Condições sanitárias e de higiene comuns previnem contaminações bacterianas ou fúngicas, mas não evitam que a toxina se espalhe se os órgãos que a contêm forem danificados."
+        },
+        {
+            "letra": "E",
+            "texto": "Manusear o peixe sem provocar o rompimento dos órgãos internos.",
+            "correta": true,
+            "justificativa": "Como a neurotoxina fica restrita às gônadas e vísceras, a retirada cuidadosa desses órgãos internos sem rompê-los impede que a toxina entre em contato com a musculatura (filé) consumida."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-11-09T15:00:20.237253",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto explicita que a toxina é termoestável (anulando a alternativa C) e que é armazenada nas vísceras e gônadas.",
+            "A preservação da integridade dos órgãos internos evita o contato da toxina com a carne que será consumida no sashimi."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-98.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

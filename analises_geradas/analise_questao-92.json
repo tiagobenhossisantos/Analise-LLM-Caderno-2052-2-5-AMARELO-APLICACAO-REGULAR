@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "92",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-92.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais."
+        },
+        "habilidade_principal": {
+            "id": "H14",
+            "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H28",
+                "descricao": "Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Relações tróficas e obtenção de compostos de defesa",
+        "conteudos_relacionados": [
+            "Ecologia",
+            "Cadeias alimentares",
+            "Bioacumulação e toxicidade",
+            "Mecanismos de defesa em anfíbios"
+        ],
+        "assunto": "Ecologia de populações e comunidades",
+        "objeto_de_analise": "Mecanismo de aquisição de veneno em sapinhos-ponta-de-flecha a partir de sua dieta",
+        "fenomeno_conceito": "Sequência trófica de compostos químicos defensivos"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "diferença de umidade entre os ambientes.",
+            "correta": false,
+            "justificativa": "A umidade é um fator abiótico relevante para anfíbios, mas não está relacionada à síntese ou aquisição das toxinas descritas no texto."
+        },
+        {
+            "letra": "B",
+            "texto": "ausência de alimentação natural.",
+            "correta": true,
+            "justificativa": "O texto deixa explícito que as toxinas são adquiridas exogenamente por meio da ingestão de formigas e cupins que se alimentam de plantas com os venenos; em cativeiro, sem essa dieta natural, os animais não acumulam o veneno."
+        },
+        {
+            "letra": "C",
+            "texto": "adaptação ao novo ambiente.",
+            "correta": false,
+            "justificativa": "A perda da toxicidade não decorre de um processo evolutivo de adaptação biológica, mas unicamente da falta dos precursores químicos presentes na dieta silvestre."
+        },
+        {
+            "letra": "D",
+            "texto": "mudança de comportamento.",
+            "correta": false,
+            "justificativa": "A ausência de veneno é resultado direto da dieta oferecida e não de alterações puramente comportamentais dos indivíduos."
+        },
+        {
+            "letra": "E",
+            "texto": "variabilidade genética.",
+            "correta": false,
+            "justificativa": "Mesmo animais silvestres retirados da natureza deixam de ser tóxicos ao longo do tempo ou geram prole não tóxica quando mantidos em cativeiro, o que mostra que a causa é ambiental/nutricional e não dependente de segregação genética."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-11-09T15:50:14.646666",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto afirma expressamente: 'Seus venenos são obtidos por meio do consumo de algumas formigas e cupins que se alimentam de plantas que contêm esses venenos'.",
+            "Em cativeiro, a falta dessas presas impede a obtenção da toxina, caracterizando a ausência de alimentação natural como causa direta."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-92.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

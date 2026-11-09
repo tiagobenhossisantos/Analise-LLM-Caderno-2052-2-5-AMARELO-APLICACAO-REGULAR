@@ -1,0 +1,111 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "164",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-164.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H19",
+            "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H15",
+                "descricao": "Identificar a relação de dependência entre grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Representação algébrica de relações e grandezas",
+        "conteudos_relacionados": [
+            "Razão e proporção",
+            "Modelagem algébrica básica"
+        ],
+        "assunto": "Equações e relações de proporcionalidade",
+        "objeto_de_analise": "Tradução de uma relação descrita em linguagem natural para uma igualdade algébrica entre as variáveis T e F",
+        "fenomeno_conceito": "Proporcionalidade direta e razão constante"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "T = 1,59 + F",
+            "correta": false,
+            "justificativa": "Esta alternativa expressa uma relação aditiva, isto é, que T supera F em 1,59 unidades, contrariando o enunciado que afirma ser 1,59 'vezes' a concentração em F."
+        },
+        {
+            "letra": "B",
+            "texto": "F = 1,59 + T",
+            "correta": false,
+            "justificativa": "Apresenta uma relação aditiva invertida, na qual F seria 1,59 unidades maior que T, contrariando o texto tanto na operação quanto no sentido da comparação."
+        },
+        {
+            "letra": "C",
+            "texto": "\\frac{T}{F} = 1,59",
+            "correta": true,
+            "justificativa": "O texto afirma que a concentração em T é 1,59 vezes a concentração em F, ou seja, T = 1,59 · F. Dividindo ambos os membros por F, obtém-se T / F = 1,59."
+        },
+        {
+            "letra": "D",
+            "texto": "\\frac{F}{T} = 1,59",
+            "correta": false,
+            "justificativa": "Inverte a razão entre as grandezas, indicando incorretamente que F seria 1,59 vezes T."
+        },
+        {
+            "letra": "E",
+            "texto": "F \\cdot T = 1,59",
+            "correta": false,
+            "justificativa": "Representa o produto entre as variáveis como constante, indicando proporcionalidade inversa entre T e F, e não que T é múltiplo de F."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2025-03",
+        "datetime": "2026-11-01T17:17:04.106877",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando da questão solicita expressar algebricamente a relação descrita no texto ('T era, em média, 1,59 vezes a concentração de cortisol salivar [...] denotada por F').",
+            "A conversão direta de 'T = 1,59 * F' para a forma de razão resulta em 'T / F = 1,59', correspondendo à alternativa C e à habilidade H19."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-164.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

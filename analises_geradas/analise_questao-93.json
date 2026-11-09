@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 93,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-93.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais."
+        },
+        "habilidade_principal": {
+            "id": "H14",
+            "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H15",
+                "descricao": "Interpretar modelos e experimentos para explicar fenômenos ou processos biológicos em qualquer nível de organização dos sistemas biológicos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Imunologia",
+        "conteudos_relacionados": [
+            "Vacinação",
+            "Imunização ativa",
+            "Antígenos e anticorpos",
+            "Resposta imune humoral"
+        ],
+        "assunto": "Mecanismo de ação das vacinas e resposta imunológica humoral",
+        "objeto_de_analise": "Processo de fabricação de vacina de vírus inativado e mecanismo pelo qual o antígeno confere proteção ao indivíduo",
+        "fenomeno_conceito": "Imunização ativa via estímulo antigênico para produção de anticorpos (imunoglobulinas neutralizadoras)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "mata o vírus pela ligação.",
+            "correta": false,
+            "justificativa": "Incorreta. O antígeno vacinal é o próprio vírus inativado (ou fragmentos dele), que já não possui capacidade replicativa; ademais, vírus não são organismos vivos celulares para serem mortos e o antígeno não é o agente que ataca o vírus, mas o que desencadeia a resposta imune."
+        },
+        {
+            "letra": "B",
+            "texto": "aglutina o vírus por associação.",
+            "correta": false,
+            "justificativa": "Incorreta. A aglutinação pode ser realizada pelos anticorpos após a sua produção, e não pelo antígeno vacinal."
+        },
+        {
+            "letra": "C",
+            "texto": "contém imunoglobulinas de defesa.",
+            "correta": false,
+            "justificativa": "Incorreta. Quem contém imunoglobulinas (anticorpos prontos) é o soro terapêutico (imunização passiva). A vacina contém antígenos que estimulam o organismo a produzir seus próprios anticorpos."
+        },
+        {
+            "letra": "D",
+            "texto": "induz a produção de proteínas neutralizadoras.",
+            "correta": true,
+            "justificativa": "Correta. O antígeno (vírus inativado) estimula os linfócitos a produzirem anticorpos (proteínas da classe das imunoglobulinas) que atuam neutralizando especificamente o patógeno, conferindo proteção ao indivíduo vacinado."
+        },
+        {
+            "letra": "E",
+            "texto": "mantém a quantidade de anticorpos preexistentes.",
+            "correta": false,
+            "justificativa": "Incorreta. A vacina não mantém anticorpos preexistentes; ela estimula uma resposta imune primária com proliferação clonal de linfócitos, aumento do título de novos anticorpos e geração de células de memória."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-11-09T14:36:54.071778",
+        "confianca": "alta",
+        "evidencias": [
+            "O esquema ilustra etapas de preparo da vacina (cultivo, isolamento, inativação) e a consequente neutralização mediada por anticorpos gerados.",
+            "O texto do comando foca na razão pela qual o antígeno causa o efeito protetor: ele induz a produção de anticorpos (proteínas neutralizadoras).",
+            "A habilidade H14 de Ciências da Natureza contempla a identificação de padrões em processos vitais dos organismos voltados à defesa."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-93.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

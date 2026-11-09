@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "148",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-148.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H24",
+                "descricao": "Utilizar informações expressas em gráficos ou tabelas para fazer inferências."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estatística básica: interpretação de gráficos compostos",
+        "conteudos_relacionados": [
+            "Operações com números naturais",
+            "Análise de gráficos de barras e linhas"
+        ],
+        "assunto": "Interpretação e tratamento de dados em gráficos",
+        "objeto_de_analise": "Gráfico de estoque (autores brasileiros e estrangeiros) versus demanda por gênero literário",
+        "fenomeno_conceito": "Comparação entre total em estoque e nível de demanda"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "ficção, pois é o que apresenta maior demanda.",
+            "classificacao": "Incorreta",
+            "justificativa": "Apesar de ficção apresentar a maior demanda (160), o estoque total desse gênero é de 200 (80 + 120), que é superior à demanda, não exigindo encomenda."
+        },
+        {
+            "letra": "B",
+            "texto": "biografia, pois é o gênero que tem a menor demanda.",
+            "classificacao": "Incorreta",
+            "justificativa": "Ter a menor demanda não é o critério estipulado pelo gerente, que é encomendar apenas quando o estoque for insuficiente para atender à demanda."
+        },
+        {
+            "letra": "C",
+            "texto": "autoajuda, pois a quantidade em estoque é inferior à demanda.",
+            "classificacao": "Correta",
+            "justificativa": "O estoque total de autoajuda é de 50 + 80 = 130 exemplares, enquanto a demanda indicada pela enquete é de 135. Como o estoque é inferior à demanda, é o único gênero que necessita de nova encomenda."
+        },
+        {
+            "letra": "D",
+            "texto": "biografia, pois é o gênero que tem a menor quantidade de livros em estoque.",
+            "classificacao": "Incorreta",
+            "justificativa": "O critério de encomenda estabelecido não depende da menor quantidade absoluta em estoque, mas sim de o estoque ser insuficiente para cobrir a respectiva demanda (em biografia, o estoque de cerca de 96 cobre a demanda de 80)."
+        },
+        {
+            "letra": "E",
+            "texto": "romance, pois é o que apresenta o menor estoque de livros de autores brasileiros.",
+            "classificacao": "Incorreta",
+            "justificativa": "A decisão de compra considera o estoque total em relação à demanda, e não apenas o subtotal de livros de autores brasileiros."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-31T21:29:16.054038",
+        "confianca": "alta",
+        "evidencias": [
+            "O enunciado apresenta um gráfico de colunas empilhadas/duplas com uma linha de demanda sobreposta.",
+            "O critério para encomenda é que a quantidade em estoque (soma de autor brasileiro e estrangeiro) seja menor que a demanda.",
+            "Calculando para cada gênero: Ficção (200 > 160), Autoajuda (130 < 135), Romance (145 > 140), Biografia (~96 > 80).",
+            "Apenas o gênero autoajuda apresenta estoque insuficiente para suprir a demanda, confirmando a alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-148.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

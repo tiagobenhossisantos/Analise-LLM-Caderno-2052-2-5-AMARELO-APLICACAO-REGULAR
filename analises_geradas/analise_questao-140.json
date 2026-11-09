@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "140",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-140.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H3",
+            "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Operações aritméticas fundamentais",
+        "conteudos_relacionados": [
+            "Multiplicação",
+            "Comparação de grandezas numéricas",
+            "Leitura e interpretação de rótulos nutricionais"
+        ],
+        "assunto": "Aritmética básica",
+        "objeto_de_analise": "Quantidade total de sódio por pacote de alimentos",
+        "fenomeno_conceito": "Cálculo do produto entre número de porções e quantidade de sódio por porção"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Batata chips.",
+            "correta": true,
+            "justificativa": "Para a batata chips, a quantidade total de sódio por pacote é 3 porções × 170 mg = 510 mg, que é a menor quantidade entre todas as opções disponíveis."
+        },
+        {
+            "letra": "B",
+            "texto": "Palitos salgados.",
+            "correta": false,
+            "justificativa": "Para os palitos salgados, a quantidade total de sódio por pacote é 4 porções × 501 mg = 2 004 mg, valor superior ao da batata chips."
+        },
+        {
+            "letra": "C",
+            "texto": "Biscoito multigrãos.",
+            "correta": false,
+            "justificativa": "Para o biscoito multigrãos, a quantidade total de sódio por pacote é 8 porções × 264 mg = 2 112 mg, sendo a maior quantidade total de sódio entre todas as opções."
+        },
+        {
+            "letra": "D",
+            "texto": "Biscoito de polvilho.",
+            "correta": false,
+            "justificativa": "Para o biscoito de polvilho, a quantidade total de sódio por pacote é 6 porções × 175 mg = 1 050 mg, valor superior ao da batata chips."
+        },
+        {
+            "letra": "E",
+            "texto": "Biscoito de água e sal.",
+            "correta": false,
+            "justificativa": "Para o biscoito de água e sal, a quantidade total de sódio por pacote é 5 porções × 166 mg = 830 mg, valor superior ao da batata chips."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-28T12:26:12.992742",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige multiplicar o número de porções pelo teor de sódio por porção em cada alimento para identificar o menor valor total.",
+            "Cálculos: Batata chips = 3 x 170 = 510 mg; Palitos salgados = 4 x 501 = 2004 mg; Biscoito multigrãos = 8 x 264 = 2112 mg; Biscoito de polvilho = 6 x 175 = 1050 mg; Biscoito de água e sal = 5 x 166 = 830 mg.",
+            "O menor total é 510 mg, correspondente à Batata chips (alternativa A)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-140.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

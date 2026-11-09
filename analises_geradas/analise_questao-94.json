@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "94",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-94.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Associar intervenções que resultam em degradação ou conservação ambiental a processos produtivos e sociais e a instrumentos ou ações científico-tecnológicos."
+        },
+        "habilidade_principal": {
+            "id": "H12",
+            "descricao": "Avaliar impactos em ambientes naturais decorrentes de atividades sociais ou econômicas, considerando interesses contraditórios."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H10",
+                "descricao": "Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Ecologia",
+        "conteudos_relacionados": [
+            "Espécies exóticas invasoras",
+            "Competição interespecífica",
+            "Perda de biodiversidade",
+            "Bioma Cerrado",
+            "Impactos ambientais da agropecuária"
+        ],
+        "assunto": "Impactos ambientais e perda de biodiversidade causados por espécies exóticas invasoras",
+        "objeto_de_analise": "Introdução do capim-gordura no bioma Cerrado e seus impactos ecológicos a longo prazo",
+        "fenomeno_conceito": "Invasão biológica e exclusão competitiva"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Diversificar nichos ecológicos.",
+            "correta": false,
+            "justificativa": "A proliferação agressiva de uma espécie exótica invasora e dominante tende a homogeneizar a vegetação e reduzir nichos disponíveis, não a diversificá-los."
+        },
+        {
+            "letra": "B",
+            "texto": "Assorear as nascentes do bioma.",
+            "correta": false,
+            "justificativa": "O assoreamento de nascentes está relacionado principalmente ao desmatamento das matas ciliares e à erosão hídrica, não sendo consequência direta da agressividade competitiva da gramínea invasora no ecossistema."
+        },
+        {
+            "letra": "C",
+            "texto": "Dificultar a infiltração de água na terra.",
+            "correta": false,
+            "justificativa": "A cobertura do solo por gramíneas comumente auxilia na infiltração e previne a erosão laminar imediata; a questão destaca o poder competitivo da planta frente à vegetação nativa."
+        },
+        {
+            "letra": "D",
+            "texto": "Diminuir as espécies nativas do bioma.",
+            "correta": true,
+            "justificativa": "Por apresentar alta agressividade e elevado poder competitivo pelos recursos (espaço, nutrientes, água e luz), o capim-gordura supera as espécies nativas do Cerrado, levando ao declínio de suas populações e perda de biodiversidade."
+        },
+        {
+            "letra": "E",
+            "texto": "Contribuir com a redução das queimadas.",
+            "correta": false,
+            "justificativa": "Gramíneas invasoras como o capim-gordura acumulam grande quantidade de biomassa seca durante o período de estiagem, frequentemente aumentando a frequência e intensidade do fogo, e não reduzindo as queimadas."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-11-01T17:48:57.872622",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto explicita a introdução de uma planta exótica africana para pastagem (atividade socioeconômica) e ressalta sua 'agressividade e poder competitivo'.",
+            "A consequência ecológica da competição assimétrica com plantas nativas é a exclusão/supressão destas, gerando declínio na diversidade do bioma.",
+            "O gabarito oficial confirma a alternativa D."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-94.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

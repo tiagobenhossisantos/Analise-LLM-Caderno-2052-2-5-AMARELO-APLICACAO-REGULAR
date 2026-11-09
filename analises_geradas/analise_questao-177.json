@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "177",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-177.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H8",
+            "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H12",
+                "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Plana",
+        "conteudos_relacionados": [
+            "Área de figuras planas",
+            "Área do círculo e do semicírculo",
+            "Grandezas e medidas"
+        ],
+        "assunto": "Cálculo de área de semicírculos",
+        "objeto_de_analise": "Comparação entre áreas de seções transversais de dois projetos de túneis",
+        "fenomeno_conceito": "Área da seção transversal semicircular"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "o 1, pois apresenta área de seção transversal medindo 67,5 m².",
+            "correta": true,
+            "justificativa": "No Projeto 1, temos dois semicírculos: um com diâmetro de 12 m (raio de 6 m) e outro com diâmetro de 6 m (raio de 3 m). A área do semicírculo maior é (π · 6²) / 2 = (3 · 36) / 2 = 54 m². A área do semicírculo menor é (π · 3²) / 2 = (3 · 9) / 2 = 13,5 m². A área transversal total do Projeto 1 é 54 + 13,5 = 67,5 m². No Projeto 2, o túnel único tem diâmetro de 3 + 6 + 6 + 3 = 18 m (raio de 9 m), gerando uma área de (π · 9²) / 2 = (3 · 81) / 2 = 121,5 m². Como o critério de escolha é a menor área, aprova-se o Projeto 1 com 67,5 m²."
+        },
+        {
+            "letra": "B",
+            "texto": "o 2, pois apresenta área de seção transversal medindo 121,5 m².",
+            "correta": false,
+            "justificativa": "Embora a área do Projeto 2 seja de fato 121,5 m², o critério de aprovação explícito no enunciado é a MENOR área da seção transversal, que pertence ao Projeto 1 (67,5 m² < 121,5 m²)."
+        },
+        {
+            "letra": "C",
+            "texto": "o 1, pois apresenta área de seção transversal medindo 135 m².",
+            "correta": false,
+            "justificativa": "O valor de 135 m² corresponde ao cálculo da área de círculos completos (π · 6² + π · 3² = 108 + 27 = 135), esquecendo-se de dividir por 2 para obter os semicírculos."
+        },
+        {
+            "letra": "D",
+            "texto": "o 2, pois apresenta área de seção transversal medindo 243 m².",
+            "correta": false,
+            "justificativa": "O valor de 243 m² corresponde ao cálculo da área de um círculo completo de raio 9 m (π · 9² = 3 · 81 = 243), esquecendo de dividir por 2 para obter a seção semicircular, além de o Projeto 2 não ser o de menor área."
+        },
+        {
+            "letra": "E",
+            "texto": "qualquer um dos dois, pois apresentam áreas de suas seções transversais com medidas iguais.",
+            "correta": false,
+            "justificativa": "As áreas não são iguais (67,5 m² ≠ 121,5 m²), pois a soma das áreas de dois semicírculos menores não é igual à área de um semicírculo cujo diâmetro é a soma dos diâmetros (devido à dependência quadrática do raio na fórmula da área)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-11-01T18:43:58.494757",
+        "confianca": "alta",
+        "evidencias": [
+            "O enunciado define a seção transversal como semicilindros retos, logo as seções transversais são semicírculos.",
+            "Projeto 1: d1 = 12 m (r1 = 6 m), d2 = 6 m (r2 = 3 m); Área = (3 · 36 / 2) + (3 · 9 / 2) = 54 + 13,5 = 67,5 m².",
+            "Projeto 2: d = 18 m (r = 9 m); Área = 3 · 81 / 2 = 121,5 m².",
+            "O projeto aprovado é o que apresenta a menor área transversal: Projeto 1 com 67,5 m²."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-177.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

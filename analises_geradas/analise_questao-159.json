@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "159",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-159.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H19",
+            "descricao": "Identificar representações algébricas que expressem a relação entre grandezas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H20",
+                "descricao": "Interpretar gráfico cartesiano que represente relações entre grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Funções Trigonométricas",
+        "conteudos_relacionados": [
+            "Função Tangente",
+            "Translação e Deformação de Gráficos",
+            "Período e Assíntotas de Funções Trigonométricas"
+        ],
+        "assunto": "Trigonometria e Funções",
+        "objeto_de_analise": "Determinação dos parâmetros da expressão algébrica de uma função tangente a partir do gráfico e suas assíntotas",
+        "fenomeno_conceito": "Variação periódica e comportamento assintótico da função tangente"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "D = 2,5 + \\text{tg}\\left[30\\left(T - \\frac{5 - 2\\pi}{2}\\right)\\right]",
+            "correta": false,
+            "justificativa": "Inverte o deslocamento vertical (utiliza 2,5 em vez de 30) e associa incorretamente a frequência e a fase aos valores de assíntotas e imagens."
+        },
+        {
+            "letra": "B",
+            "texto": "D = 4 + \\text{tg}\\left[30\\left(T + \\frac{5}{2}\\right)\\right]",
+            "correta": false,
+            "justificativa": "Utiliza 4 (extremo do domínio) como termo independente vertical e inverte o sinal do deslocamento horizontal, além de definir o parâmetro de período incorretamente como 30."
+        },
+        {
+            "letra": "C",
+            "texto": "D = 4 + \\text{tg}\\left[2,5\\left(T + \\frac{5 + 2\\pi}{2}\\right)\\right]",
+            "correta": false,
+            "justificativa": "Atribui valores inadequados para a translação vertical (4), o período (2,5) e o deslocamento horizontal (baseado no valor da assíntota com sinal trocado)."
+        },
+        {
+            "letra": "D",
+            "texto": "D = 30 + \\text{tg}\\left[\\frac{1}{2}(T - 5)\\right]",
+            "correta": false,
+            "justificativa": "Embora acerte o deslocamento vertical (30) e o parâmetro p = 1/2, erra no deslocamento horizontal m, usando 5 em vez de 5/2 (2,5)."
+        },
+        {
+            "letra": "E",
+            "texto": "D = 30 + \\text{tg}\\left[\\frac{1}{2}\\left(T - \\frac{5}{2}\\right)\\right]",
+            "correta": true,
+            "justificativa": "O período da função é a distância entre as duas assíntotas consecutivas: ((5 + 2π)/2) - ((5 - 2π)/2) = 2π. Como o período de tg(p·T) é π/p, temos π/p = 2π => p = 1/2. O ponto médio entre as assíntotas ocorre em T = 2,5 = 5/2, onde a tangente se anula e D = 30, definindo o deslocamento vertical k = 30 e o deslocamento horizontal m = -5/2."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1-20250120",
+        "datetime": "2026-11-01T17:06:37.001236",
+        "confianca": "alta",
+        "evidencias": [
+            "A distância entre assíntotas adjacentes é 2π, fornecendo o período e, portanto, p = 1/2.",
+            "O ponto dado no gráfico (2,5; 30) é o ponto de inflexão/simetria central entre as duas assíntotas, determinando m = -5/2 e k = 30.",
+            "Gabarito oficial é condizente com a alternativa E."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-159.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "173",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-173.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Operações aritméticas fundamentais e análise de tabelas",
+        "conteudos_relacionados": [
+            "Leitura e interpretação de dados em tabelas",
+            "Multiplicação e adição com números naturais",
+            "Otimização e comparação de custos"
+        ],
+        "assunto": "Aritmética e Matemática Financeira Básica",
+        "objeto_de_analise": "Tabela de preços de serviços para habilitação em diferentes autoescolas",
+        "fenomeno_conceito": "Cálculo do custo total para escolha da opção mais econômica"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "I, com o custo total de R$ 1 400,00.",
+            "correta": false,
+            "justificativa": "O custo total na Autoescola I é de 20 × 10 + 10 × 80 + 400 = 200 + 800 + 400 = R$ 1 400,00. Embora o valor calculado esteja correto para a autoescola I, este não é o menor custo possível entre as três opções."
+        },
+        {
+            "letra": "B",
+            "texto": "II, com o custo total de R$ 280,00.",
+            "correta": false,
+            "justificativa": "Este valor decorre de um erro de cálculo, possivelmente da mera soma direta dos valores unitários da tabela (30 + 50 + 200 = 280) sem multiplicar pelas respectivas quantidades de aulas necessárias (20 teóricas e 10 práticas)."
+        },
+        {
+            "letra": "C",
+            "texto": "II, com o custo total de R$ 1 300,00.",
+            "correta": false,
+            "justificativa": "O custo total na Autoescola II é de 20 × 30 + 10 × 50 + 200 = 600 + 500 + 200 = R$ 1 300,00. Embora o cálculo para a autoescola II esteja correto, ela é mais cara que a Autoescola III."
+        },
+        {
+            "letra": "D",
+            "texto": "III, com o custo total de R$ 460,00.",
+            "correta": false,
+            "justificativa": "Este valor decorre de um erro de cálculo, somando diretamente os valores unitários da tabela (20 + 40 + 400 = 460) sem levar em conta as quantidades de aulas teóricas e práticas exigidas."
+        },
+        {
+            "letra": "E",
+            "texto": "III, com o custo total de R$ 1 200,00.",
+            "correta": true,
+            "justificativa": "O custo total na Autoescola III é de 20 × 20 + 10 × 40 + 400 = 400 + 400 + 400 = R$ 1 200,00. Sendo R$ 1 200,00 o menor valor entre os três (Autoescola I: R$ 1 400,00; Autoescola II: R$ 1 300,00; Autoescola III: R$ 1 200,00), a Autoescola III será a contratada."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-11-01T18:42:26.370542",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão apresenta os preços unitários das aulas e o aluguel do veículo organizados em uma tabela.",
+            "O comando exige o cálculo do menor custo total com base na contratação de 20 aulas teóricas, 10 práticas e 1 aluguel de veículo.",
+            "O gabarito oficial E coincide com o menor custo obtido para a Autoescola III (R$ 1 200,00)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-173.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

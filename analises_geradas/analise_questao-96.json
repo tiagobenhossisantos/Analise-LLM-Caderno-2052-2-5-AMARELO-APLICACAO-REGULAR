@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "96",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-96.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H24",
+            "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H18",
+                "descricao": "Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Métodos de Separação de Misturas e Purificação da Água",
+        "conteudos_relacionados": [
+            "Destilação",
+            "Soluções e Solubilidade",
+            "Propriedades da Água",
+            "Compostos Químicos no Cotidiano"
+        ],
+        "assunto": "Substâncias puras, misturas e processos de purificação",
+        "objeto_de_analise": "Processo de obtenção e caracterização da água destilada",
+        "fenomeno_conceito": "Destilação simples para dessalinização e produção de água pura"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "dura.",
+            "correta": false,
+            "justificativa": "Água dura é caracterizada pela alta concentração de íons dissolvidos, principalmente cálcio e magnésio, o oposto do produto de desmineralização descrito no texto."
+        },
+        {
+            "letra": "B",
+            "texto": "pesada.",
+            "correta": false,
+            "justificativa": "Água pesada (óxido de deutério, D2O) é a água composta pelo isótopo de hidrogênio deutério em vez de prótio, não se relacionando com a simples remoção de sais minerais dissolvidos."
+        },
+        {
+            "letra": "C",
+            "texto": "sanitária.",
+            "correta": false,
+            "justificativa": "Água sanitária é uma solução aquosa de hipoclorito de sódio (NaClO) utilizada para limpeza e desinfecção, e não água desprovida de sais minerais."
+        },
+        {
+            "letra": "D",
+            "texto": "destilada.",
+            "correta": true,
+            "justificativa": "A água destilada é obtida por destilação, processo físico no qual os sais minerais e impurezas dissolvidos são deixados no balão de aquecimento, produzindo água com baixíssimo teor iônico, adequada para laboratórios e baterias, mas inadequada para consumo rotineiro."
+        },
+        {
+            "letra": "E",
+            "texto": "oxigenada.",
+            "correta": false,
+            "justificativa": "Água oxigenada é a solução aquosa de peróxido de hidrogênio (H2O2), usada principalmente como agente antisséptico ou alvejante."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-11-09T14:48:35.739139",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto da questão explicita a remoção de sais dissolvidos e aplicações específicas em laboratórios, baterias e solventes industriais.",
+            "O gabarito oficial fornecido indica a alternativa D como correta."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-96.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

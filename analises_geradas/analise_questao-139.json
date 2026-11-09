@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 139,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-139.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+        },
+        "habilidade_principal": {
+            "id": "H27",
+            "descricao": "Calcular medidas de tendência central ou de dispersão de um conjunto de dados expressos em uma tabela de frequências de dados agrupados (não em classes) ou em gráficos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H28",
+                "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estatística Básica",
+        "conteudos_relacionados": [
+            "Medidas de tendência central",
+            "Mediana",
+            "Organização de dados (Rol)"
+        ],
+        "assunto": "Cálculo da mediana de um conjunto de dados discretos",
+        "objeto_de_analise": "Valores de velocidade de referência de conexão de dez cidades",
+        "fenomeno_conceito": "Determinação do valor central em uma distribuição com número par de observações"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "360.",
+            "correta": false,
+            "justificativa": "Corresponde ao quarto valor do rol ordenado (ou ao valor da cidade C10), não sendo o ponto médio da distribuição."
+        },
+        {
+            "letra": "B",
+            "texto": "370.",
+            "correta": false,
+            "justificativa": "Poderia ser obtido por erro no cálculo da média entre valores incorretos, como a média entre o 4º elemento (360) e o 5º elemento (380), isto é, (360 + 380) / 2 = 370, desconsiderando a repetição do valor 380."
+        },
+        {
+            "letra": "C",
+            "texto": "380.",
+            "correta": true,
+            "justificativa": "Ordenando os 10 valores em ordem crescente (rol): 320, 340, 350, 360, 380, 380, 390, 390, 390, 400. Como a quantidade de termos é par (n = 10), a mediana é a média aritmética entre o 5º e o 6º termos: (380 + 380) / 2 = 380."
+        },
+        {
+            "letra": "D",
+            "texto": "390.",
+            "correta": false,
+            "justificativa": "Corresponde à moda da distribuição (valor que mais se repete, presente 3 vezes), e não à mediana."
+        },
+        {
+            "letra": "E",
+            "texto": "400.",
+            "correta": false,
+            "justificativa": "Corresponde ao valor máximo do conjunto de dados, e não à mediana."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-10-31T16:38:44.988222",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão fornece uma tabela com dez dados numéricos e solicita explicitamente o cálculo da mediana.",
+            "O rol ordenado possui 10 elementos com termos centrais (5º e 6º) iguais a 380, resultando em mediana 380, correspondente à alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-139.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

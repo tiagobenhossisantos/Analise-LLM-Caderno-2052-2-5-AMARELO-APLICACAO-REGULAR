@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "162",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-162.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H2",
+            "descricao": "Identificar padrões numéricos ou princípios de contagem."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Análise Combinatória",
+        "conteudos_relacionados": [
+            "Princípio Fundamental da Contagem (Princípio Multiplicativo)",
+            "Restrições em problemas de contagem"
+        ],
+        "assunto": "Princípios de contagem e arranjo com restrição",
+        "objeto_de_analise": "Número de maneiras de constituir uma diretoria com restrição de participação de cônjuges",
+        "fenomeno_conceito": "Multiplicação de possibilidades com exclusão de elementos de um mesmo grupo (casal)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "10 x 9 x 8",
+            "correta": false,
+            "justificativa": "Esta expressão corresponde apenas à escolha de 3 casais distintos com ordem de cargos, sem considerar que em cada casal há 2 pessoas possíveis para assumir o cargo (ou seja, considerou como se houvesse apenas 10 pessoas ao todo)."
+        },
+        {
+            "letra": "B",
+            "texto": "20 x 18 x 16",
+            "correta": true,
+            "justificativa": "Há 10 casais, logo 20 pessoas no total. Para o cargo de presidente, há 20 opções. Escolhida uma pessoa, nem ela nem seu cônjuge podem ser eleitos para outro cargo, restando 18 pessoas (9 casais) para o cargo de secretário. De forma análoga, para tesoureiro, restam 16 pessoas (8 casais). Pelo princípio multiplicativo, o total é 20 x 18 x 16."
+        },
+        {
+            "letra": "C",
+            "texto": "20 x 19 x 18",
+            "correta": false,
+            "justificativa": "Esta expressão desconsidera a restrição de que nenhum casal pode ter mais de uma pessoa na diretoria, apenas garantindo que uma mesma pessoa não assuma mais de um cargo."
+        },
+        {
+            "letra": "D",
+            "texto": "10 x 9 x 8 x 2",
+            "correta": false,
+            "justificativa": "Multiplica a escolha dos casais por 2 apenas uma vez, em vez de considerar a escolha de uma dentre duas pessoas para cada um dos 3 cargos selecionados (o que seria 2^3 = 8)."
+        },
+        {
+            "letra": "E",
+            "texto": "20 x 18 x 16 x 2",
+            "correta": false,
+            "justificativa": "Adiciona um fator multiplicativo 2 desnecessário à contagem que já está correta e completa em 20 x 18 x 16."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-11-01T17:12:22.594503",
+        "confianca": "alta",
+        "evidencias": [
+            "O problema pede a quantidade de diretorias de 3 cargos distintos formadas a partir de 10 casais (20 indivíduos).",
+            "A restrição exige que no máximo um membro de cada casal participe.",
+            "Para a 1ª vaga temos 20 opções; para a 2ª, restam 18; para a 3ª, restam 16, totalizando 20 x 18 x 16."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-162.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

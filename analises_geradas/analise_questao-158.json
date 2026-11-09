@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 158,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-158.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H3",
+                "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estatística básica: Média aritmética",
+        "conteudos_relacionados": [
+            "Operações fundamentais com números naturais",
+            "Interpretação de diagramas e esquemas"
+        ],
+        "assunto": "Média aritmética simples",
+        "objeto_de_analise": "Tempo por quilômetro (pace) em corrida de 5 km",
+        "fenomeno_conceito": "Cálculo do valor de um dado desconhecido a partir da média pré-estabelecida"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "1",
+            "correta": false,
+            "justificativa": "Incorreta. Corresponde à diferença entre o tempo do 3º trecho e o pace almejado (288 - 281 = 7) ou outros cálculos equivocados de subtrações diretas."
+        },
+        {
+            "letra": "B",
+            "texto": "2",
+            "correta": false,
+            "justificativa": "Incorreta. Pode resultar de erros no cálculo do tempo total ou da média."
+        },
+        {
+            "letra": "C",
+            "texto": "8",
+            "correta": false,
+            "justificativa": "Incorreta. 281 - 273 = 8 (diferença entre o pace médio almejado e o tempo do 5º trecho), mas a pergunta pede a diferença em relação ao tempo do 4º trecho."
+        },
+        {
+            "letra": "D",
+            "texto": "9",
+            "correta": false,
+            "justificativa": "Incorreta. Representa um erro na subtração entre 288 e outro valor intermediário."
+        },
+        {
+            "letra": "E",
+            "texto": "15",
+            "correta": true,
+            "justificativa": "Correta. Para obter um pace médio de 281 s/km em 5 km, o tempo total da corrida deve ser 5 × 281 = 1 405 s. O corredor acumulou 1 132 s até o 4º km (272 + 284 + 288 + 288 = 1 132 s). Logo, no 5º trecho ele precisa gastar 1 405 - 1 132 = 273 s. Como no 4º trecho ele gastou 288 s, o tempo no 5º trecho deve ser 288 - 273 = 15 s menor."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2025-02",
+        "datetime": "2026-10-31T21:42:28.111889",
+        "confianca": "alta",
+        "evidencias": [
+            "O conceito de pace é explicitamente definido como o tempo médio por quilômetro.",
+            "O tempo total necessário é calculado multiplicando a média pelo total de trechos: 281 * 5 = 1405 s.",
+            "A subtração 288 - 273 = 15 s responde exatamente à pergunta do comando."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-158.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}
